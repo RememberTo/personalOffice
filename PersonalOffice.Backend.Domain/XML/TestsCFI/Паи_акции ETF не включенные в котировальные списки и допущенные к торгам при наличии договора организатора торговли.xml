@@ -1,0 +1,486 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>11</TestTypeID>
+	<NameGenitiveCase>Паев/акций ETF не включенных в котировальные списки и допущенных к торгам при наличии договора организатора торговли</NameGenitiveCase>
+	<Description>Сделки по приобретению паев/акций ETF, не включенных в котировальные списки биржи и допущенных к организованным торгам при наличии договора организатора торговли с лицом, обязанным по ним, доходность по которым в соответствии с их проспектом (правилами) определяется индексом, не входящим в перечень, установленный Советом директоров Банка России, или иным показателем, а также при условии предоставления информации о налоговой ставке и порядке уплаты налогов в отношении доходов по таким ценным бумагам в соответствии с подпунктом 7 пункта 2 статьи 3.1 Федерального закона № 39-ФЗ;</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e11_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e11_2.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e11_3.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e11_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Выберите правильное утверждение в отношении паев/акций ETF на индекс акций:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.1</IdAnswer>Владелец ETF имеет право на часть имущества и прибыли компании, входящей в индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.2</IdAnswer>Инвестиции в индексные ETF, как правило, проигрывают вложениям в отдельные акции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.3</IdAnswer>Паи ETF на индекс акций позволяют инвестировать в отдельные акции и/или облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.4</IdAnswer>Вложения в ETF на индекс акций связаны с большим рыночным риском по сравнению с вложениями в отдельные акции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.5</IdAnswer>Цена пая ETF на индекс акций рассчитывается в конце дня на основе стоимости чистых активов компаний, входящих в индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.6</IdAnswer>Паи ETF на индекс акций выпускаются и погашаются только несколько раз за время существования ETF-провайдера.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.7</IdAnswer>Благодаря диверсификации вложений инвестиции в ETF на индекс акций при прочих равных условиях, как правило, связаны с меньшим уровнем инвестиционного риска по сравнению с вложениями в обыкновенные акции иностранных компаний-эмитентов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.8</IdAnswer>Паи ETF на индекс акций можно купить только через процедуру подписки непосредственно в фонде.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.9</IdAnswer>Инвестиции в ETF на индекс акций требуют от инвестора больше времени и расходов, чем в портфель из акций компаний, составляющих индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_1.1.7</IdAnswer>
+				<AnswerVariant>Благодаря диверсификации вложений инвестиции в ETF на индекс акций при прочих равных условиях, как правило, связаны с меньшим уровнем инвестиционного риска по сравнению с вложениями в обыкновенные акции иностранных компаний-эмитентов.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Чем отличается ETF на индекс, состоящий из акций эмитентов сельскохозяйственной отрасли Бразилии (далее – индекс с/х компаний Бразилии), от ETF на индекс S&amp;P 500?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.1</IdAnswer>В отличии от ETF на индекс S&amp;P 500 при негативных событиях исключительно в сельскохозяйственной отрасли Бразилии цена ETF на индекс с/х компаний Бразилии сильно снизится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.2</IdAnswer>ETF на индекс с/х компаний Бразилии ликвиднее, поскольку в него включены акции эмитентов, производящих разную продукцию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.3</IdAnswer>На ETF на индекс с/х компаний Бразилии влияют только показатели самой отрасли, а на ETF на индекс S&amp;P 500 – ещё деятельность компаний SP.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.4</IdAnswer>Темпы развития мировой экономики влияют исключительно на ETF на индекс с/х компаний Бразилии.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.5</IdAnswer>Цена пая/акции ETF на индекс с/х компаний Бразилии является суммой цен акций компаний, входящих в состав такого ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.6</IdAnswer>Поскольку стоимость ETF на индекс с/х компаний Бразилии зависит только от компаний одной отрасли, волатильность ценных бумаг такого фонда всегда будет меньше.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.7</IdAnswer>ETF на индекс S&amp;P 500 может включать в себя акции крупнейших сельскохозяйственных компаний Бразилии.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.8</IdAnswer>С учетом роста цен на продукты питания ETF на индекс с/х компаний Бразилии всегда показывает положительную динамику.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.9</IdAnswer>Цена пая/акции ETF на индекс S&amp;P 500 зависит исключительно от макроэкономических факторов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_1.2.1</IdAnswer>
+				<AnswerVariant>В отличии от ETF на индекс S&amp;P 500 при негативных событиях исключительно в сельскохозяйственной отрасли Бразилии цена ETF на индекс с/х компаний Бразилии сильно снизится.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Выберите правильное утверждение в отношении паев/акций ETF на индекс иностранных корпоративных облигаций.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.1</IdAnswer>Инвестиции в паи/акции такого ETF, как правило, более доходные, чем приобретение отдельных ценных бумаг.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.2</IdAnswer>Владелец паев/акций такого ETF обязан ежегодно перечислять комиссию управляющей компании за управление иностранными корпоративными облигациями, входящими в фонд.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.3</IdAnswer>Цена пая/акции такого ETF определяется полученным управляющей компанией купонным доходом по облигациям, входящим в фонд.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.4</IdAnswer>Паи/акции такого ETF доступны только на внебиржевом рынке при первичном размещении.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.5</IdAnswer>Инвестиции в паи/акции такого ETF требуют от инвестора самостоятельного отслеживания сроков погашения и купонных выплат по облигациям, входящим в фонд.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.6</IdAnswer>Владелец пая/акции такого ETF вправе в любое время потребовать погашения пая/акции от управляющей компании и передачи ему входящих в фонд облигаций на сумму стоимости пая/акции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.7</IdAnswer>Инвестиции в паи/акции такого ETF позволяют инвестору не отслеживать самостоятельно сроки погашения и выплаты купонов по облигациям, входящим в ETF, а также не принимать участие в формировании портфеля активов фонда.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.8</IdAnswer>Владелец пая/акции такого ETF вправе в любое время потребовать от управляющей компании передачи ему купонного дохода и номинальной стоимости облигаций пропорционально стоимости пая/акции ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.9</IdAnswer>Цена пая/акции такого ETF рассчитывается ежедневно на основании номинальной стоимости облигаций, входящих в ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_1.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_1.3.7</IdAnswer>
+				<AnswerVariant>Инвестиции в паи/акции такого ETF позволяют инвестору не отслеживать самостоятельно сроки погашения и выплаты купонов по облигациям, входящим в ETF, а также не принимать участие в формировании портфеля активов фонда.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="1">
+			Как устроен механизм формирования цены паев/акций ETF?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.1</IdAnswer>Формируется исключительно под воздействием спроса и предложения на акции/паи ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.2</IdAnswer>Не зависит от стоимости компонентов (активов), составляющих фонд.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.3</IdAnswer>Формируется не на биржевом рынке паев ETF, а на рынке, где обращаются базовые активы, составляющие ETF. Если цена паев фонда окажется выше, чем стоимость его портфеля, приходящаяся на один пай ETF, то авторизованный участник фонда, действуя исключительно в своих интересах за счет операций на первичном и вторичном рынке, вернет цену к справедливому уровню.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.4</IdAnswer>Определяется управляющим фонда.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.5</IdAnswer>Цена может содержать существенную систематическую премию или дисконт по сравнению с ценой, рассчитываемой в соответствии с личным законом фонда.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.6</IdAnswer>Определяется управляющим фонда с учетом спроса и предложения на паи ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.7</IdAnswer>Цена может содержать существенную систематическую премию или дисконт по сравнению с ценой, определенной управляющим фонда.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.8</IdAnswer>Определяется в соответствии с нормативными актами Банка России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.9</IdAnswer>Определяется в соответствии с нормативными актами Банка России и правилами листинга российской биржи, где обращаются данные ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.1.3</IdAnswer>
+				<AnswerVariant>Формируется не на биржевом рынке паев ETF, а на рынке, где обращаются базовые активы, составляющие ETF. Если цена паев фонда окажется выше, чем стоимость его портфеля, приходящаяся на один пай ETF, то авторизованный участник фонда, действуя исключительно в своих интересах за счет операций на первичном и вторичном рынке, вернет цену к справедливому уровню</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="2">
+			Что из перечисленного не является риском, связанным с вложениями российских инвесторов в паи/акции ETF?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.1</IdAnswer>Риск изменения суверенного рейтинга Российской Федерации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.2</IdAnswer>Риск неожиданного изменения иностранным государством законодательства, регулирующего обращение ETF, в неблагоприятную для Вас сторону.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.3</IdAnswer>Риск введения иностранным государством запретительных мер в отношении российских владельцев паев ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.4</IdAnswer>Риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.5</IdAnswer>Риск обложения доходов, выплачиваемых по ETF (в случае выплаты таких доходов) не только в России, но и в иностранном государстве.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.6</IdAnswer>Риск неожиданного изменения иностранным государством законодательства, регулирующего обращение ETF, в неблагоприятную для Вас сторону и риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.7</IdAnswer>Риск изменения суверенного рейтинга Российской Федерации и риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.8</IdAnswer>Риск введения иностранным государством запретительных мер в отношении российских владельцев паев ETF и риск обложения доходов, выплачиваемых по ETF (в случае выплаты таких доходов) не только в России, но и в иностранном государстве.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.9</IdAnswer>Риск неожиданного изменения иностранным государством законодательства, регулирующего обращение ETF, в неблагоприятную для Вас сторону и риск обложения доходов, выплачиваемых по ETF (в случае выплаты таких доходов) не только в России, но и в иностранном государстве.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.2.1</IdAnswer>
+				<AnswerVariant>Риск изменения суверенного рейтинга Российской Федерации.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			На каком принципе основан фонд ETF на индекс акций широкого рынка (например, S&amp;P 500)?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.1</IdAnswer>Диверсификации вложений за счет инвестирования через фонд ETF в различные активы.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.2</IdAnswer>Принятия маркет-мейкером на себя убытков при продаже инвестором паев/акций ETF в убыток.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.3</IdAnswer>Страхования размера убытка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.4</IdAnswer>Отказа от инвестирования в акции высококапитализированных компаний.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.5</IdAnswer>Участия розничного инвестора в процессе создания и погашения паев/акций ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.6</IdAnswer>Формирования цены пая/акции ETF путем расчета стоимости чистых активов фонда ETF в конце каждого торгового дня на бирже.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.7</IdAnswer>Выплаты дохода по паям/акциям ETF брокером, заключающим сделки по таким ценным бумагам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.8</IdAnswer>Конвертации паев/акций ETF в акции компаний, составляющих индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.9</IdAnswer>Доступности исключительно квалифицированным инвесторам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.3.1</IdAnswer>
+				<AnswerVariant>Диверсификации вложений за счет инвестирования через фонд ETF в различные активы.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="4">
+			Паи/акции ETF были допущены к торгам на российской бирже по заключенному договору с лицом, обязанным по ним. Выберите верное утверждение.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.1</IdAnswer>Лицо, обязанное по таким ценным бумагам, должно по российскому законодательству раскрывать информацию о паях/акциях ETF.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.2</IdAnswer>Биржа, допустившая такие паи/акции ETF к обращению, становится лицом, обязанным по таким ценным бумагам перед лицами, купившими их на этой бирже.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.3</IdAnswer>Доходность по таким паям/акциям ETF заведомо выше, чем по паям/акциям ETF, допущенным к биржевым торгам без договора с лицом, обязанным по ним.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.4</IdAnswer>По договору с лицом, обязанным по паям/акциям ETF, могут быть допущены только паи/акции ETF на облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.5</IdAnswer>Биржа имеет право допустить паи/акции ETF только после регистрации выпуска в Банке России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.6</IdAnswer>Лицо, обязанное по таким ценным бумагам, должно обеспечить заключение на бирже определенное договором с биржей количество сделок.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.7</IdAnswer>Биржа, допустившая такие паи/акции ETF к обращению, вправе не раскрывать о них информацию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.8</IdAnswer>Договор с маркет-мейкером заключается только в отношении паев/акций ETF, допущенных к обращению исключительно по договору российской биржи с лицом, обязанным по таким ценным бумагам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.9</IdAnswer>Лицо, обязанное по таким ценным бумагам, обязано предоставлять отчетность в Банк России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.4.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.4.1</IdAnswer>
+				<AnswerVariant>Лицо, обязанное по таким ценным бумагам, должно по российскому законодательству раскрывать информацию о паях/акциях ETF</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="5">
+			Укажите риски, которые не могут возникнуть при инвестировании в паи/акции ETF.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.1</IdAnswer>Рыночный риск, связанный с негативным изменением стоимости базовых активов (ценных бумаг, валютных курсов, процентных ставок) составляющих ETF
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.2</IdAnswer>Риск неполучения дохода по какому-либо активу фонда в случае, если инвестор не совершил необходимых действий в период выплат по такому активу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.3</IdAnswer>Риск банкротства (несостоятельности) управляющей компании ETF
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.4</IdAnswer>Риск недостатка ликвидности паев ETF, выраженный в существенной разнице между ценой покупки и ценой продажи (спредом)
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.5</IdAnswer>Риск невозможности судебной защиты прав инвестора в судах Российской Федерации в связи с иностранной юрисдикцией ETF
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.6</IdAnswer>Риск недополучения дохода в связи с отклонением доходности ETF от динамики индекса, которому он следует
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.7</IdAnswer>Риск введения запрета/ограничения на совершение операций с паями/акциями ETF иностранным государством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.8</IdAnswer>Риск ликвидации фонда в иностранной юрисдикции и невозможности продать или получить компенсацию стоимости пая ETF
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.9</IdAnswer>Налоговые риски, связанные с необходимостью определения финансового результата и расчета налогооблагаемого дохода/убытка, полученного в иностранной валюте от продажи паев/акций ETF, по курсу в рублях Российской Федерации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.5.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.5.2</IdAnswer>
+				<AnswerVariant>Риск неполучения дохода по какому-либо активу фонда в случае, если инвестор не совершил необходимых действий в период выплат по такому активу</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			В какой срок Вы сможете продать паи/акции ETF, допущенные к торгам по договору с лицом, обязанным по таким ценным бумагам?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.1</IdAnswer>В течение следующего торгового дня на бирже после подачи поручения брокеру.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.2</IdAnswer>В любой рабочий день, определенный самим инвестором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.3</IdAnswer>Точный срок не может быть определен, поскольку у лица, обязанного по паям/акциям ETF нет обязательств по их выкупу у розничного инвестора, а также с учетом риска введения иностранным регулятором ограничений на совершение сделок и/или регистрацию прав на паи/акции ETF в депозитарии.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.4</IdAnswer>В любой рабочий день, поскольку, если не будет покупателей, то паи/акции ETF обязан выкупить брокер.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.5</IdAnswer>В любой рабочий день, поскольку лицо, обязанное по паям/акциям ETF, обязано обеспечить их выкуп.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.6</IdAnswer>В течение недели.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.7</IdAnswer>В течение 3 дней.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.8</IdAnswer>В день подачи поручения брокеру.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.9</IdAnswer>В течение месяца.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_2.6.10</IdAnswer>Ни один из ответов не является верным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_2.6.3 </IdAnswer>
+				<AnswerVariant>Точный срок не может быть определен, поскольку у лица, обязанного по паям/акциям ETF нет обязательств по их выкупу у розничного инвестора, а также с учетом риска введения иностранным регулятором ограничений на совершение сделок и/или регистрацию прав на паи/акции ETF в депозитарии.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+		<Question difficulty="3" variant="1">
+			В случае, если Вы купили пай/акцию ETF за 100 долларов США и продали его/ее через год за 120 долларов США, при этом курс доллара США за указанный год вырос с 50 до 75 рублей, Ваш налогооблагаемый доход в России составит:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.1</IdAnswer>20 долларов США
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.2</IdAnswer>1000 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.3</IdAnswer>1 500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.4</IdAnswer>2 500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.5</IdAnswer>5 000 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.6</IdAnswer>2 750 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.7</IdAnswer>4 000 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.8</IdAnswer>3 500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.9</IdAnswer>0 рублей, поскольку налог на доход, полученный в результате роста стоимости иностранной ценной бумаги, уплачивается в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_3.1.7</IdAnswer>
+				<AnswerVariant>4 000 рублей</AnswerVariant>
+			</CorrectAnswer>
+
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Как влияет курс рубль/доллар на размер Вашего налогооблагаемого дохода в случае, если Вы купили пай/акцию ETF на американские акции, при условии, что стоимость пая/акции ETF в долларах осталась неизменной, а рубль обесценился за время владения этой ценной бумагой?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.1</IdAnswer>Налогооблагаемый доход уменьшится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.2</IdAnswer>Налогооблагаемый доход не изменится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.3</IdAnswer>Налогооблагаемый доход увеличится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.4</IdAnswer>Стоимость инвестициях в долларах США увеличится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.5</IdAnswer>Стоимость инвестициях в долларах США уменьшится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.6</IdAnswer>Стоимость инвестициях в долларах США после уплаты НДФЛ увеличится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.7</IdAnswer>Стоимость инвестициях в долларах США после уплаты НДФЛ не изменится.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.8</IdAnswer>Дополнительных налоговых обязательств по НДФЛ не возникнет.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.9</IdAnswer>Обязательства по НДФЛ снизятся.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K11_3.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K11_3.2.3</IdAnswer>
+				<AnswerVariant>Налогооблагаемый доход увеличится.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+	</Knowledge>
+
+</Root>
+

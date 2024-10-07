@@ -1,0 +1,488 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>2</TestTypeID>
+	<NameGenitiveCase>Производных финансовых инструментов</NameGenitiveCase>
+	<Description>Договоры, являющиеся производными финансовыми инструментами и не предназначенные для квалифицированных инвесторов, предусматривающие одну или несколько обязанностей, указанных в абзаце втором подпункта 23 пункта 1 статьи 2 Федерального закона от 22 апреля 1996 года №39-ФЗ «О рынке ценных бумаг». Данная категория не включает договоры РЕПО, а также опционные договоры, заключенные с физическим лицом с исполнением им трудовых обязанностей на основании трудового договора или в связи с участием физического лица в органах управления хозяйственного общества)</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e2_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e2_2.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e2_3.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e2_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Если Вы купили опцион на покупку акций, Вы:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.1</IdAnswer>обязаны купить акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.2</IdAnswer>обязаны продать акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.3</IdAnswer>имеете право купить акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.4</IdAnswer>обязаны одновременно купить и продать равное количество акций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.5</IdAnswer>обязаны в течение согласованного периода времени не покупать такие акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.6</IdAnswer>обязаны в течение согласованного периода времени не продавать такие акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.7</IdAnswer>имеете право продать акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.8</IdAnswer>обязаны подать брокеру поручение на покупку акций по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.9</IdAnswer>не можете быть владельцем таких акций в течение календарного года после истечения срока такого опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_1.1.3</IdAnswer>
+				<AnswerVariant>имеете право купить акции по цене, предусмотренной условиями опциона</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Если Вы продали поставочный опцион на покупку акций, Вы:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.1</IdAnswer>обязаны продать акции по цене, предусмотренной условиями опциона, если этого потребует покупатель опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.2</IdAnswer>обязаны купить акции по цене, предусмотренной условиями опциона, если этого потребует покупатель опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.3</IdAnswer>имеете право продать акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.4</IdAnswer>имеете право купить акции по цене, предусмотренной условиями опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.5</IdAnswer>имеете право продать акции по цене, которая сформировалась на бирже на дату окончания опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.6</IdAnswer>имеете право купить акции по цене, которая сформировалась на бирже на дату окончания опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.7</IdAnswer>обязаны в течение определенного срока купить аналогичный опцион на покупку акций с целью закрытия данной позиции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.8</IdAnswer>обязаны в течение определенного опционом срока купить акции в количестве, предусмотренном опционом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.9</IdAnswer>обязаны в течение определенного опционом срока продать акции в количестве, предусмотренном опционом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_1.2.1</IdAnswer>
+				<AnswerVariant>обязаны продать акции по цене, предусмотренной условиями опциона, если этого потребует покупатель опциона</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Выберите верное утверждение относительно фьючерсного контракта.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.1</IdAnswer>Любой фьючерсный контракт предусматривает обязанность продавца совершить отдельную сделку с базовым активом в будущем по заданной цене и на заданных условиях.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.2</IdAnswer>Покупатель может в течение установленного в условиях контракта срока отказаться от исполнения условий фьючерсного контракта.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.3</IdAnswer>Фьючерсный контракт может быть как поставочным, так и расчетным.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.4</IdAnswer>Фьючерсные контракты могут быть только расчетными.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.5</IdAnswer>Фьючерсные контракты могут быть только поставочными.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.6</IdAnswer>Фьючерсные контракты заключаются на внебиржевом рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.7</IdAnswer>Фьючерсные контракты не имеют заранее оговоренных сроков исполнения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.8</IdAnswer>Заключение фьючерсного контракта на ценную бумагу всегда накладывает на продавца обязанность поставить ценную бумагу другой стороне.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.9</IdAnswer>Продавец может в течение установленного в условиях контракта срока отказаться совершить сделку с базовым активом в будущем по заданной цене и на заданных условиях.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_1.3.10</IdAnswer>Покупатель не имеет обязанностей по договору, все обязанности лежат на продавце.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_1.3.3</IdAnswer>
+				<AnswerVariant>Фьючерсный контракт может быть как поставочным, так и расчетным.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+		<Question difficulty="2" variant="1">
+			Вы продали опцион на покупку акций. Ваши потенциальные убытки:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.1</IdAnswer>ограничены ценой исполнения (страйком) опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.2</IdAnswer>ничем не ограничены
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.3</IdAnswer>не могут превышать величину гарантийного обеспечения (начальной маржи) на бирже
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.4</IdAnswer>не могут превышать сумму уплаченной вам премии по опциону
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.5</IdAnswer>ограничены суммой полученной премии
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.6</IdAnswer>ограничены суммой, за которую вы купили бы акции в дату продажи опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.7</IdAnswer>ограничены десятикратным размером полученной премии
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.8</IdAnswer>ограничены стоимостью, за которую вы продадите акции по опциону
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.9</IdAnswer>не предусмотрены, то есть предполагается, что убытки вы понести не можете
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.1.2</IdAnswer>
+				<AnswerVariant>ничем не ограничены</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="2">
+			Вы получили убыток от инвестиций на срочном рынке. Возместят ли Вам ваши убытки?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.1</IdAnswer>да, в пределах 1,4 млн рублей выплаты застрахованы государством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.2</IdAnswer>да, полностью
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.3</IdAnswer>нет, не возместят
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.4</IdAnswer>да, убыток в полном объеме должен быть возмещен брокером
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.5</IdAnswer>да, убыток в пределах 1,4 млн. рублей должен быть возмещен брокером
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.6</IdAnswer>да, убыток должен быть возмещен другой стороной по заключенной сделке
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.7</IdAnswer>да, частично
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.8</IdAnswer>да, но только в случае банкротства контрагента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.9</IdAnswer>да, но только в пределах НДФЛ, который был вами уплачен в течение года, в котором возникли убытки
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.2.3</IdAnswer>
+				<AnswerVariant>нет, не возместят</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			Вы купили опцион на продажу акций. Ваши потенциальные убытки (без учета уплачиваемых комиссий)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.1</IdAnswer>ограничены премией, которую Вы уплатили (должны уплатить) по опциону
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.2</IdAnswer>ничем не ограничены
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.3</IdAnswer>не могут превышать величину гарантийного обеспечения на бирже
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.4</IdAnswer>ограничены разницей между текущей рыночной ценой акции и ценой исполнения (страйком) опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.5</IdAnswer>ограничены стоимостью акций на момент покупки опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.6</IdAnswer>ограничены стоимостью акций на момент исполнения опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.7</IdAnswer>не могут возникнуть, так как Вы являетесь покупателем опциона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.8</IdAnswer>ограничены суммой, которая находится на Вашем брокерском счете
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.9</IdAnswer>ничем не ограничены, но в пределах 1,4 млн рублей, если Вы не являетесь квалифицированным инвестором, Ваши убытки возместит специализированный страховой фонд
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.3.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.3.1</IdAnswer>
+				<AnswerVariant>ограничены премией, которую Вы уплатили (должны уплатить) по опциону</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="4">
+			Вы заключили внебиржевой договор, являющийся производным финансовым инструментом. Выберите верное утверждение:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.1</IdAnswer>Договор может предусматривать, что, если Вы решите его расторгнуть до окончания срока действия, Вы можете потерять часть инвестированных денежных средств
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.2</IdAnswer>Если до истечения срока договора Вы решите его расторгнуть, то независимо от вида договора Вы получите обратно все инвестированные средства, но не получите потенциальный дополнительный доход
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.3</IdAnswer>Расторгнуть договор до окончания его срока действия, как правило, невозможно.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.4</IdAnswer>Если Вы решите расторгнуть договор до окончания срока его действия, то независимо от вида договора Вы получите обратно все инвестированные средства, а также долю дополнительного инвестиционного дохода, пропорциональную сроку фактического действия договора
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.5</IdAnswer>Досрочное расторжение такого договора, как правило, возможно исключительно при нарушении одной из сторон своих обязательств
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.6</IdAnswer>Расторжение внебиржевого договора, как правило, возможно только при условии определения взаимных обязательств сторон по договору биржей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.7</IdAnswer>Если Вы решите расторгнуть договор до истечения срока его действия, то, как правило, Вы потеряете все свои инвестированные средства и дополнительно будете должны уплатить штраф за расторжение
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.8</IdAnswer>Расторгнуть такой договор до окончания срока его действия, как правило, возможно только по решению суда
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.9</IdAnswer>Расторжение внебиржевого договора, как правило, возможно только, если одна из его сторон – физическое лицо-неквалифицированный инвестор
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.4.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.4.1</IdAnswer>
+				<AnswerVariant>Договор может предусматривать, что, если Вы решите его расторгнуть до окончания срока действия, Вы можете потерять часть инвестированных денежных средств</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="5">
+			Вы – сторона договора, являющегося производным финансовым инструментом (далее – ПФИ).
+			Базовый актив такого ПФИ – обыкновенные акции компании Х.
+			В течение срока действия ПФИ в целях получения дивидендов составлен реестр владельцев указанных акций.
+			Укажите верное утверждение в отношении передачи Вам дохода от эмитента по таким акциям.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.1</IdAnswer>Доход от эмитента получает другая сторона ПФИ, при этом размер обязательств по ПФИ изменится в Вашу пользу на сумму, эквивалентную размеру дивидендных выплат от эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.2</IdAnswer>Доход от эмитента получаете Вы, при этом размер обязательств по ПФИ изменится в пользу другой стороны ПФИ на сумму, эквивалентную размеру дивидендных выплат от эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.3</IdAnswer>Доход от эмитента получает другая сторона ПФИ, при этом размер обязательств по ПФИ изменится в Вашу пользу на сумму, эквивалентную размеру дивидендных выплат от эмитента за вычетом налоговых издержек.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.4</IdAnswer>Доход от эмитента получаете Вы, при этом размер обязательств по ПФИ изменится в пользу другой стороны ПФИ на сумму, эквивалентную размеру дивидендных выплат от эмитента за вычетом налоговых издержек.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.5</IdAnswer>Эмитент выплачивает доход какой-либо из сторон, если такая выплата предусмотрена ПФИ.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.6</IdAnswer>Эмитент выплачивает доход Вам, при этом размер обязательств по ПФИ не изменяется.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.7</IdAnswer>Эмитент выплачивает доход другой стороне ПФИ, при этом размер обязательств по ПФИ не изменяется.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.8</IdAnswer>Эмитент выплачивает доход одной из сторон, определенной в условиях ПФИ.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.9</IdAnswer>Эмитент не выплачивает доход ни одной из сторон, при этом ПФИ может содержать условия, которые меняют размер обязательств одной из сторон в случае принятия эмитентом решения о выплате дивидендов владельцам акций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.5.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.5.9</IdAnswer>
+				<AnswerVariant>Эмитент не выплачивает доход ни одной из сторон, при этом ПФИ может содержать условия, которые меняют размер обязательств одной из сторон в случае принятия эмитентом решения о выплате дивидендов владельцам акций.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			Что из перечисленного не может влиять на финансовый результат форвардного контракта?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.1</IdAnswer>Увеличение цен(ы) базисного актива
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.2</IdAnswer>Изменение курсов валют базисных активов по отношению к валюте контракта
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.3</IdAnswer>Рост ключевой ставки Банка России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.4</IdAnswer>Дефолт эмитента базисного актива
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.5</IdAnswer>Налоговые обязательства сторон контракта
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.6</IdAnswer>Банкротство стороны по сделке
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.7</IdAnswer>Снижение ключевой ставки Банка России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.8</IdAnswer>Ни один из ответов не является правильным
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.9</IdAnswer>Увеличение волатильности базисного актива
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_2.6.10</IdAnswer>Уменьшение цен(ы) базисного актива
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_2.6.8</IdAnswer>
+				<AnswerVariant>Ни один из ответов не является правильным.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="3" variant="1">
+			Вы имеете один фьючерсный контракт на акции. Цена акций резко упала. В данном случае события могут развиваться следующим образом:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.1</IdAnswer>брокер потребует от Вас внести дополнительное обеспечение и в случае, если Вы этого не сделаете, Вы либо брокер закроете Вашу позицию, но баланс Вашего счёта может стать отрицательным
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.2</IdAnswer>фьючерсный контракт становится внебиржевым, каких-либо действий от Вас при этом не требуется
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.3</IdAnswer>фьючерсный контракт переходит к брокеру, Вы не несете по нему ответственности
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.4</IdAnswer>фьючерсный контракт прекращается автоматически при изменении цены акций более, чем на 20 %
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.5</IdAnswer>срок фьючерсного контракта продлевается на период до достижения ценой акций уровня, соответствующего цене на дату заключения такого контракта
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.6</IdAnswer>на Ваше усмотрение Вы вносите дополнительное обеспечение по требованию брокера или закрываете Вашу позицию, или фьючерсный контракт переходит к брокеру, Вы не несете по нему ответственности
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.7</IdAnswer>фьючерсный контракт переходит к брокеру и становится внебиржевым, каких-либо действий от Вас при этом не требуется, никакой ответственности Вы не несете
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.8</IdAnswer>фьючерсный контракт становится внебиржевым и прекращается автоматически при изменении цены акций более, чем на 20 %, каких-либо действий от Вас при этом не требуется
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.9</IdAnswer>фьючерсный контракт становится внебиржевым и его срок продлевается на период до достижения ценой акций уровня, соответствующего цене на дату заключения такого контракта, каких-либо действий от Вас при этом не требуется
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_3.1.1</IdAnswer>
+				<AnswerVariant>брокер потребует от Вас внести дополнительное обеспечение и в случае, если Вы этого не сделаете, Вы либо брокер закроете Вашу позицию, но баланс Вашего счёта может стать отрицательным</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Вы получили информацию от брокера о необходимости довнесения средств или закрытия позиции, поскольку Ваших активов недостаточно для поддержания позиций на срочном рынке. Выберите верное утверждение:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.1</IdAnswer>Вы можете довнести средства либо совершить сделки, в результате которых Ваших активов станет достаточно для поддержания позиций. В противном случае брокер может принудительно закрыть некоторые Ваши позиции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.2</IdAnswer>Брокер в течение ближайшего часа обязан закрыть некоторые Ваши позиции принудительно, если Вы не довнесете средства или не совершите сделки, в результате которых Ваших активов станет достаточно для поддержания позиций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.3</IdAnswer>Брокер до окончания текущей торговой сессии обязан закрыть некоторые Ваши позиции принудительно, если Вы не довнесете средства или не совершите сделки, в результате которых Ваших активов станет достаточно для поддержания позиций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.4</IdAnswer>Если Вы не довнесете средства или не совершите сделки, в результате которых уже имеющихся в распоряжении брокера Ваших активов станет достаточно для покрытия рисков открытых Вами позиций, брокер обязан закрыть все Ваши позиции на срочном рынке
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.5</IdAnswer>Вы можете довнести средства. Если Вы этого не сделаете, брокер обязан дождаться закрытия Вами позиций (истечения срочных сделок), и, если по итогам закрытия позиций у Вас останется задолженность перед брокером, он может обратиться в суд
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.6</IdAnswer>Если снижение произошло в связи с повышением требований к гарантийному обеспечению, Вы в течение 2 дней имеете право подождать возможного снижения требований к гарантийному обеспечению, в результате Ваших активов снова станет достаточно для поддержания позиций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.7</IdAnswer>По законодательству у Вас есть 3 дня на довнесение средств или совершение сделок, направленных на закрытие позиций. Если Вы этого не сделаете, то брокер принудительно закроет некоторые Ваши позиции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.8</IdAnswer>Брокер будет отказывать в исполнении любых Ваших поручений до тех пор, пока Вы не довнесете средства
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.9</IdAnswer>Помимо довнесения средств или совершения сделок Вы также можете обратиться на биржу с просьбой о снижении требований к гарантийному обеспечению. До получения Вами официального ответа от биржи брокер не имеет права принудительно закрывать Ваши позиции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k2_3.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k2_3.2.1</IdAnswer>
+				<AnswerVariant>Вы можете довнести средства либо совершить сделки, в результате которых Ваших активов станет достаточно для поддержания позиций. В противном случае брокер может принудительно закрыть некоторые Ваши позиции</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+	</Knowledge>
+</Root>

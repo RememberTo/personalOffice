@@ -1,0 +1,495 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>13</TestTypeID>
+	<NameGenitiveCase>Облигаций российских или иностранных эмитентов, конвертируемых в иные ценные бумаги</NameGenitiveCase>
+	<Description>Облигации российских или иностранных эмитентов, конвертируемые в иные ценные бумаги</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e13_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e13_2.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e13_3.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e13_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Что означает коэффициент конвертации в условиях выпуска конвертируемых облигаций?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.1</IdAnswer>Число, на которое увеличивается номинальная стоимость конвертируемой облигации при ее погашении эмитентом.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.2</IdAnswer>Число, на которое увеличивается сумма купонного дохода по конвертируемой облигации в дату ее погашения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.3</IdAnswer>Количество иных ценных бумаг, которые могут быть получены в результате конвертации на одну облигацию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.4</IdAnswer>Стоимость ценных бумаг, на которые можно обменять конвертируемую облигацию в дату ее погашения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.5</IdAnswer>Число, на которое умножается номинал облигации при расчете выплат ее владельцу в случае банкротства эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.6</IdAnswer>Стоимость, по которой эмитент обязан выкупить конвертируемые облигации у инвестора.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.7</IdAnswer>Количество конвертируемых облигаций, которые инвестор должен предъявить эмитенту в дату их погашения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.8</IdAnswer>Количество конвертируемых облигаций на дату погашения, на которые можно обменять одну ценную бумагу эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.9</IdAnswer>Рыночную стоимость конвертируемой облигации на дату ее приобретения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_1.1.3</IdAnswer>
+				<AnswerVariant>Количество иных ценных бумаг, которые могут быть получены в результате конвертации на одну облигацию. </AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Какие риски несет инвестор при приобретении конвертируемых облигаций:
+			1) риск банкротства или неплатежеспособности эмитента;
+			2) риск убытков вследствие снижения рыночной стоимости ценных бумаг, в которые конвертируются облигации, на дату погашения конвертируемых облигаций;
+			3) риск снижения рыночной стоимости конвертируемой облигации в результате снижения котировок акций и иных аналогичных ценных бумаг эмитента;
+			4) риск принудительной конвертации облигаций по решению эмитента в соответствии с условиями выпуска конвертируемых облигаций.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.1</IdAnswer>1, 2
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.2</IdAnswer>Все перечисленные.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.3</IdAnswer>2, 4
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.4</IdAnswer>2, 3
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.5</IdAnswer>1, 3
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.6</IdAnswer>3, 4
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.7</IdAnswer>1,4
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.8</IdAnswer>2, 3, 4
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.9</IdAnswer>1, 2, 4
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_1.2.2</IdAnswer>
+				<AnswerVariant>Все перечисленные.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Цена конвертации конвертируемых в акции облигаций определяет:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.1</IdAnswer>цену за одну облигацию, по которой эмитент осуществляет ее досрочный выкуп у инвестора
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.2</IdAnswer>рыночную стоимость облигации на дату ее приобретения инвестором
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.3</IdAnswer>цену одной акции, по которой осуществляется ее обмен на конвертируемые облигации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.4</IdAnswer>рыночную цену за одну облигацию, по достижению которой эмитент обязан осуществить ее принудительную конвертацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.5</IdAnswer>цену за одну акцию, по которой можно конвертировать облигации в дату выплаты купона
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.6</IdAnswer>цену за одну облигацию, по которой она будет погашена эмитентом в день ее погашения
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.7</IdAnswer>количество акций, которые могут быть получены инвестором в результате конвертации одной облигации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.8</IdAnswer>цену за одну облигацию, которую эмитент обязуется выплатить владельцу в случае своего банкротства
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.9</IdAnswer>количество облигаций на дату погашения, которые можно конвертировать на одну акцию эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_1.3.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_1.3.3</IdAnswer>
+				<AnswerVariant>цену одной акции, по которой осуществляется ее обмен на конвертируемые облигации</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="1">
+			Если инвестор принимает решение продать принадлежащую ему конвертируемую облигацию. Как быстро он сможет это сделать?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.1</IdAnswer>В любой рабочий день, определенный инвестором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.2</IdAnswer>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.3</IdAnswer>В любой рабочий день, поскольку если не будет желающих купить облигации на рынке, их обязан выкупить брокер.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.4</IdAnswer>В любой рабочий день, поскольку если не будет желающих купить облигации на рынке, их обязан выкупить эмитент.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.5</IdAnswer>В течение недели.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.6</IdAnswer>В течение месяца.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.7</IdAnswer>В течение 14 дней.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.8</IdAnswer>Сделка совершается в дату подачи поручения брокеру, но расчеты по ней происходят через два рабочих дня.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.9</IdAnswer>В любой рабочий день, но не позднее 5 рабочих дней до даты начала периода конвертации облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_2.1.2</IdAnswer>
+				<AnswerVariant>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="2">
+			Вы получили убыток от конвертации облигации в иные ценные бумаги эмитента, так как рыночная стоимость данных ценных бумаг на дату конвертации существенно снизилась. Возместят ли Вам ваши убытки?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.1</IdAnswer>Да, в пределах 1,4 млн рублей убытки застрахованы государством.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.2</IdAnswer>Да, полностью.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.3</IdAnswer>Нет, не возместят.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.4</IdAnswer>Да, убыток в полном объеме должен быть возмещен брокером.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.5</IdAnswer>Да, убыток в пределах 1,4 млн. рублей должен быть возмещен специализированным страховым фондом.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.6</IdAnswer>Да, убыток должен быть возмещен биржей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.7</IdAnswer>Да, убыток в полном объеме должен быть возмещен эмитентом.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.8</IdAnswer>Да, но только в случае банкротства эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.9</IdAnswer>Да, но не более 50% от разницы между стоимостью облигаций на дату конвертации и стоимостью ценных бумаг, в которые эти облигации были конвертированы.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_2.2.3</IdAnswer>
+				<AnswerVariant>Нет, не возместят.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			Выберите верное утверждение в отношении конвертируемых облигаций.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.1</IdAnswer>Владелец конвертируемой облигации вправе в любое время потребовать у эмитента осуществить конвертацию облигаций в иные ценные бумаги по рыночной цене.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.2</IdAnswer>Владелец конвертируемой облигации, как правило, вправе потребовать от эмитента осуществления конвертации облигаций в иные ценные бумаги по цене, существенно ниже рыночной цены данных ценных бумаг на дату погашения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.3</IdAnswer>Порядок конвертации облигаций, цена, курс и дата конвертации фиксируются в условиях выпуска таких облигаций и на дату конвертации облигаций могут отличаться от текущей рыночной стоимости ценных бумаг, в которые конвертируются облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.4</IdAnswer>Эмитент вправе в любое время осуществить выкуп конвертируемых облигаций по своему усмотрению, независимо от условий выпуска облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.5</IdAnswer>Эмитент обязан осуществлять выкуп облигаций по текущей рыночной стоимости в любое время по требованию владельца, независимо от условий выпуска облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.6</IdAnswer>Купонная доходность конвертируемых облигаций, как правило, существенно выше купонной доходности неконвертируемых облигаций того же эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.7</IdAnswer>Владелец конвертируемой облигации вправе в любое время потребовать у эмитента обмена неконвертируемых облигаций на другие облигации того же эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.8</IdAnswer>Рыночная цена конвертируемой облигации не меняется в течение срока ее обращения в отличие от других облигаций эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.9</IdAnswer>Владелец конвертируемой облигации вправе участвовать в общих собраниях акционеров эмитента и голосовать по вопросу выплаты дивидендов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_2.3.3</IdAnswer>
+				<AnswerVariant>Порядок конвертации облигаций, цена, курс и дата конвертации фиксируются в условиях выпуска таких облигаций и на дату конвертации облигаций могут отличаться от текущей рыночной стоимости ценных бумаг, в которые конвертируются облигации. </AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="4">
+			Является ли верным следующее утверждение:
+			Эмитент облигаций при наступлении определенных условий, перечисленных в условиях выпуска конвертируемых облигаций, вправе осуществить принудительную конвертацию облигаций ранее даты погашения облигаций с возмещением инвестору понесенных им убытков.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.1</IdAnswer>Нет, поскольку срок погашения облигаций и период конвертации облигаций не могут быть изменены по усмотрению эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.2</IdAnswer>Да, такие условия могут быть предусмотрены в эмиссионной документации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.3</IdAnswer>Нет, условия принудительной конвертации облигаций эмитентом могут быть установлены в эмиссионной документации, но эмитент не обязан возмещать убытки инвесторам, возникшие в результате такой конвертации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.4</IdAnswer>Нет, эмитент не вправе осуществлять принудительную конвертацию облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.5</IdAnswer>Нет, такие условия могут быть предусмотрены только в дату погашения облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.6</IdAnswer>Нет, данные условия могут быть предусмотрены в даты выплаты купонов по конвертируемым облигациям.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.7</IdAnswer>Да, такие условия могут быть предусмотрены в эмиссионной документации, при условии возмещения эмитенту выплаченных инвесторам убытков со стороны биржи.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.8</IdAnswer>Да, такие условия могут быть предусмотрены в случае направления эмитенту требования инвестора о возмещении убытков.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.9</IdAnswer>Нет, эмитент не вправе осуществлять принудительную конвертацию облигаций и возмещать убытки инвесторам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.4.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_2.4.3</IdAnswer>
+				<AnswerVariant>Нет, условия принудительной конвертации облигаций эмитентом могут быть установлены в эмиссионной документации, но эмитент не обязан возмещать убытки инвесторам, возникшие в результате такой конвертации.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="5">
+			Определите коэффициент конвертации облигаций компании Х номиналом 1000 рублей в обыкновенные акции этой же компании (ставка купона 7,5% с выплатой купона четыре раза в год, цена конвертации 50 рублей). Текущая рыночная стоимость облигации составляет 500 рублей.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.1</IdAnswer>10 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.2</IdAnswer>950 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.3</IdAnswer>20 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.4</IdAnswer>невозможно определить
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.5</IdAnswer>500 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.6</IdAnswer>150 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.7</IdAnswer>15 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.8</IdAnswer>100 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.9</IdAnswer>75 акций за 1 облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_2.5.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_2.5.3</IdAnswer>
+				<AnswerVariant>20 акций за 1 облигацию</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+
+		<Question difficulty="3" variant="1">
+			Вы приобрели двухлетнюю конвертируемую облигацию номинальной стоимостью 1000 рублей с условием ее обмена на 10 акций эмитента по цене 100 рублей за одну акцию в дату конвертации. Какую сумму прибыли или убытка получит инвестор в результате совершения операции по конвертации, если на дату конвертации рыночная цена акций эмитента составит 50 рублей за акцию.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.1</IdAnswer>Инвестор получит прибыль в размере 100 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.2</IdAnswer>Инвестор получит прибыль в размере 50 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.3</IdAnswer>Инвестор получит убыток в размере 500 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.4</IdAnswer>Инвестор получит убыток в размере 100 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.5</IdAnswer>Инвестор получит убыток в размере 50 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.6</IdAnswer>Инвестор получит прибыль в размере 1000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.7</IdAnswer>Инвестор получит убыток в размере 900 рублей от погашения номинальной стоимости облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.8</IdAnswer>Инвестор получит прибыль в размере 900 рублей от погашения номинальной стоимости облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.9</IdAnswer>Инвестор получит прибыль в размере 950 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_3.1.3</IdAnswer>
+				<AnswerVariant>Инвестор получит убыток в размере 500 рублей.</AnswerVariant>
+			</CorrectAnswer>
+
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Получает ли инвестор за время владения конвертируемыми облигациями дивиденды или иные выплаты, которые эмитент выплачивает по ценным бумагам, в которые могут быть конвертированы облигации?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.1</IdAnswer>Нет, выплаченные эмитентом дивиденды накапливаются за период обращения облигаций и подлежат выплате инвестору только в дату конвертации облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.2</IdAnswer>Да, если данное условие предусмотрено уставом эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.3</IdAnswer>Нет, за время владения конвертируемыми облигациями инвестор не получит дивиденды и иные выплаты по ценным бумагам, в которые могут быть конвертированы эти облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.4</IdAnswer>Да, в случае если данное условие предусмотрено в условиях выпуска конвертируемых облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.5</IdAnswer>Да, дивиденды выплачиваются эмитентом инвестору в дату выплаты купона по конвертируемой облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.6</IdAnswer>Нет, выплаченные дивиденды возмещаются инвестору покупателем конвертируемой облигации в случае ее продажи инвестором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.7</IdAnswer>Нет, дивиденды могут быть выплачены эмитентом держателям конвертируемых облигаций в случае, если их сумма превышает размер купонных платежей по ней.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.8</IdAnswer>Да, выплачиваются, поскольку конвертируемая облигация может быть обменена на другие ценные бумаги эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.9</IdAnswer>Да, выплачиваются по усмотрению эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_3.2.3</IdAnswer>
+				<AnswerVariant>Нет, за время владения конвертируемыми облигациями инвестор не получит дивиденды и иные выплаты по ценным бумагам, в которые могут быть конвертированы эти облигации.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="3">
+			Вы приобрели пятилетнюю конвертируемую облигацию номинальной стоимостью 1000 рублей с условием ее обмена на 30 акций эмитента по цене 200 рублей за одну акцию в дату конвертации.
+			Какую сумму прибыли или убытка получит инвестор в результате конвертации, если на дату конвертации рыночная цена акций эмитента составляет 300 рублей за акцию?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.1</IdAnswer>Инвестор получит прибыль в размере 6000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.2</IdAnswer>Инвестор получит прибыль в размере 9000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.3</IdAnswer>Инвестор получит прибыль в размере 3000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.4</IdAnswer>Инвестор получит убыток в размере 6000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.5</IdAnswer>Инвестор получит убыток в размере 9000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.6</IdAnswer>Инвестор получит прибыль в размере 1000 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.7</IdAnswer>Инвестор получит убыток в размере 700 рублей от погашения номинальной стоимости облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.8</IdAnswer>Инвестор получит прибыль в размере 700 рублей от погашения номинальной стоимости облигации.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.9</IdAnswer>Инвестор получит прибыль в размере 800 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>K13_3.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>K13_3.3.3</IdAnswer>
+				<AnswerVariant>Инвестор получит прибыль в размере 3000 рублей.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+	</Knowledge>
+
+</Root>
+

@@ -1,0 +1,490 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>9</TestTypeID>
+	<NameGenitiveCase></NameGenitiveCase>
+	<Description>Акции российских эмитентов, допущенные к обращению на организованных торгах, но не включенные в котировальные списки биржи или не допущенные к обращению на организованных торгах </Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e9_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e9_2.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e9_3.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e9_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Вы получили убытки от совершения сделок с акциями. Возместят ли Вам Ваши убытки?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.1</IdAnswer>да, в пределах 1,4 млн рублей убытки застрахованы государством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.2</IdAnswer>да, полностью
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.3</IdAnswer>нет, не возместят
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.4</IdAnswer>да, убыток в полном объеме должен быть возмещен брокером
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.5</IdAnswer>да, убыток в пределах 1,4 млн. рублей должен быть возмещен брокером
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.6</IdAnswer>да, убыток должен быть возмещен другой стороной по заключенной сделке
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.7</IdAnswer>да, убыток в полном объеме должен быть возмещен эмитентом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.8</IdAnswer>да, но только в случае банкротства контрагента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.9</IdAnswer>да, но только в пределах НДФЛ, который был Вами уплачен в течение года, в котором возникли убытки
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_1.1.3</IdAnswer>
+				<AnswerVariant>нет, не возместят</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Выберите риски, которые могут возникнуть при инвестировании в акции, не включенные в котировальные списки.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.1</IdAnswer>Риск не найти покупателя или продавца.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.2</IdAnswer>Риск отказа брокера в принятии поручения по таким ценных бумаг в случае использования ИИС.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.3</IdAnswer>Риск неполучения гарантированной выплаты в пределах 1,4 млн рублей в случае банкротства эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.4</IdAnswer>Риск невыплаты дохода по этим акциям.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.5</IdAnswer>Риск неполучения гарантированного дохода, указанного в проспекте эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.6</IdAnswer>Риск изменения величины гарантированного обеспечения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.7</IdAnswer>Риск получения требования по закрытию необеспеченной позиции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.8</IdAnswer>Риск отсутствия достоверной информации об эмитенте.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.9</IdAnswer>Риск конвертации акций в иную ценную бумагу.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_1.2.1</IdAnswer>
+				<AnswerVariant>Риск не найти покупателя или продавца.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Акции компании А включены в котировальный список биржи, акции компании Б не включены в данный список.
+			Выберите верное утверждение.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.1</IdAnswer>Акции компании А всегда более надежные, чем компании Б.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.2</IdAnswer>Акции компании А всегда более доходные, чем компании Б.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.3</IdAnswer>Акции компании А всегда более ликвидные, чем компании Б.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.4</IdAnswer>Цена акций компании А не должна быть меньше 100 рублей за 1 акцию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.5</IdAnswer>Цена акций компании Б не должна быть меньше 10 рублей за 1 акцию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.6</IdAnswer>Существуют определенные требования для включения акций в котировальный список и нахождению в нем, которым компания А должна соответствовать.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.7</IdAnswer>Для включения в котировальный список компании Б достаточно подать заявление, какие-либо требования к акциям и компании отсутствуют.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.8</IdAnswer>Для включения акций компании Б определенного выпуска в котировальный список необходимо, чтобы акции всех предыдущих выпусков этой компании, обращающиеся на бирже, также были включены в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.9</IdAnswer>Акции компании Б автоматически включаются в котировальный список после того, как владельцем 35% обыкновенных акций этой компании становится Российская Федерация (субъект Российской Федерации).
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_1.3.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_1.3.6</IdAnswer>
+				<AnswerVariant>Существуют определенные требования для включения акций в котировальный список и нахождению в нем, которым компания А должна соответствовать.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="1">
+			Если инвестор принимает решение продать принадлежащую ему акцию, как быстро он может это сделать?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.1</IdAnswer>в любой рабочий день, определенный самим инвестором
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.2</IdAnswer>точная дата не может быть определена
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.3</IdAnswer>в любой рабочий день, поскольку если не будет желающих их купить на рынке, их обязан выкупить брокер
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.4</IdAnswer>в любой рабочий день, поскольку если не будет желающих их купить на рынке, их обязан выкупить эмитент
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.5</IdAnswer>в течение недели
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.6</IdAnswer>в течение 7 дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.7</IdAnswer>в течение 14 дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.8</IdAnswer>в течение месяца
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.9</IdAnswer>сделка совершается в дату подачи поручения брокеру, но расчеты по ней происходят через два рабочих дня
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.1.2</IdAnswer>
+				<AnswerVariant>точная дата не может быть определена</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="2">
+			Выберите признаки, отличающие акции, не включенные в котировальные списки, от акций, включенных в котировальные списки:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.1</IdAnswer>как правило, цены на акции, не включенные в котировальные списки, более волатильны (изменчивы) и количество сделок с такими акциями в течение дня меньше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.2</IdAnswer>как правило, цены на акции, не включенные в котировальные списки, менее волатильны (изменчивы) и количество сделок с этими акциями в течение дня больше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.3</IdAnswer>как правило, цены на акции, не включенные в котировальные списки, более волатильны (изменчивы) и количество сделок с такими акциями в течение дня больше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.4</IdAnswer>как правило, цены на акции, не включенные в котировальные списки, менее волатильны (изменчивы) и количество сделок с такими акциями в течение дня меньше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.5</IdAnswer>только тем, что цены на акции, не включенные в котировальные списки, как правило, более волатильны (изменчивы)
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.6</IdAnswer>только тем, что цены на акции, не включенные в котировальные списки, как правило, менее волатильны (изменчивы)
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.7</IdAnswer>только тем, что количество сделок с акциями, не включенными в котировальные списки, в течение дня как правило меньше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.8</IdAnswer>только тем, что количество сделок с акциями, не включенными в котировальные списки, в течение дня как правило больше
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.9</IdAnswer>отличий нет
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.2.1</IdAnswer>
+				<AnswerVariant>Как правило, цены на акции, не включенные в котировальные списки, более волатильны (изменчивы) и количество сделок с такими акциями в течение дня меньше </AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="3">
+			Отличительной особенностью акций, вошедших в некотировальную часть списка ценных бумаг, является
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.1</IdAnswer>соответствие ценных бумаг требованиям брокера, предъявляемым к сроку существования эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.2</IdAnswer>отсутствие необходимости соответствовать специальным требованиям к объему выпуска, установленным биржей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.3</IdAnswer>соответствие рейтингу, установленному Банком России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.4</IdAnswer>закономерность: цена таких акций ниже цены акций аналогичных компаний, вошедших в котировальный список
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.5</IdAnswer>закономерность: цена таких акций выше цены акций аналогичных компаний, вошедших в котировальный список
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.6</IdAnswer>отсутствие возможности перевода таких акций в котировальные списки
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.7</IdAnswer>отсутствие необходимости пересмотра критериев для перевода в котировальные списки и /или исключения из некотировальной части списка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.8</IdAnswer>то обстоятельство, что такие акции эмитированы (выпущены) только средними и мелкими компаниями
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.9</IdAnswer>то обстоятельство, что по таким акциям не начисляются дивиденды
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.3.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.3.2</IdAnswer>
+				<AnswerVariant>отсутствие необходимости соответствовать специальным требованиям к объему выпуска, установленным биржей</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="4">
+			Выберите верное утверждение в отношении стоимости акций российских эмитентов:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.1</IdAnswer>Отсутствие акции в котировальном списке биржи само по себе не означает, что ее цена будет всегда ниже, чем цена акции, включенной в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.2</IdAnswer>Наличие акции в котировальном списке биржи само по себе означает, что ее цена будет всегда ниже, чем цена акции, не включенной в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.3</IdAnswer>Акция, не включенная в котировальный список биржи, как правило, стоит дешевле, чем акция, включенная в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.4</IdAnswer>Акция, не включенная в котировальный список биржи, как правило, стоит дороже, чем акция, включенная в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.5</IdAnswer>Акции, включенные в некотировальную часть списка биржи, более волатильны и стоят дороже тех, которые включены в котировальные списки.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.6</IdAnswer>Акции, включенные в некотировальную часть списка биржи, более волатильны и стоят дешевле тех, которые включены в котировальные списки.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.7</IdAnswer>Цена акций формируется исходя из требований биржи, предъявляемых к котировальным и некотировальному спискам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.8</IdAnswer>В некотировальную часть списка биржи входят акции с ценой, определенной по правилам биржи.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.9</IdAnswer>В некотировальную часть списка биржи входят только акции с ценой, попадающей в определенный диапазон, установленный биржей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.4.10</IdAnswer>Ни один ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.4.1</IdAnswer>
+				<AnswerVariant>Отсутствие акции в котировальном списке биржи само по себе не означает, что ее цена будет всегда ниже, чем цена акции, включенной в котировальный список.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="5">
+			Акции компании А не включены в котировальный список биржи, но обращаются на ней. Брокер по Вашему поручению приобрел эти акции на внебиржевом рынке.
+			Выберите верное утверждение.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.1</IdAnswer>Такие акции не могут приобретаться на внебиржевом рынке в любом случае.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.2</IdAnswer>В дальнейшем такие акции могут быть проданы только на бирже.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.3</IdAnswer>В дальнейшем такие акции могут быть проданы только на внебиржевом рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.4</IdAnswer>Продажа и покупка таких акций может осуществляться только на бирже.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.5</IdAnswer>Продавать и покупать такие акции можно на бирже и/или внебиржевом рынке, если иное не предусмотрено брокерским договором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.6</IdAnswer>Такие акции могут быть проданы на бирже, только если в процессе обращения они были включены в котировальный список биржи.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.7</IdAnswer>В дальнейшем брокер обязан выкупить такие акции у инвестора.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.8</IdAnswer>В дальнейшем эмитент обязан выкупить такие акции у инвестора.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.9</IdAnswer>В дальнейшем брокер обязан выкупить такие акции по требованию инвестора в случае, если не найдет покупателя на внебиржевом рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.5.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.5.5</IdAnswer>
+				<AnswerVariant>Продавать и покупать такие акции можно на бирже и/или внебиржевом рынке, если иное не предусмотрено брокерским договором.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			Акции компании Х включены в котировальный список биржи, акции компании Y не включены в данный список.
+			Выберите верное утверждение в отношении дохода по акциям.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.1</IdAnswer>Компания X всегда выплачивает дивиденды.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.2</IdAnswer>Размер дивидендных выплат по акциям компании X всегда выше, чем по акциям компании Y.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.3</IdAnswer>Компания X выплачивает дивиденды чаще, чем компания Y.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.4</IdAnswer>Компания Y выплачивает дивиденды чаще, чем компания X.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.5</IdAnswer>Размер и частота дивидендных выплат не зависят от включения акций компании в котировальный список.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.6</IdAnswer>Компания X может выплачивать дивиденды только из чистой прибыли, а компания Y – из выручки.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.7</IdAnswer>Размер дивидендных выплат на одну обыкновенную акцию компании X за календарный год всегда выше 50 рублей, а компании Y – ниже 50 рублей.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.8</IdAnswer>Компания X может выплачивать дивиденды как в рублях, так и в иностранной валюте.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.9</IdAnswer>Компания Y может выплачивать дивиденды как в рублях, так и в иностранной валюте.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_2.6.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_2.6.5</IdAnswer>
+				<AnswerVariant>Размер и частота дивидендных выплат не зависят от включения акций компании в котировальный список.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="3" variant="1">
+			Выберите верное утверждение:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.1</IdAnswer>акция, не включенная в котировальный список биржи, как правило менее ликвидна, чем акция, включенная в котировальный список
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.2</IdAnswer>акция, не включенная в котировальный список биржи, как правило стоит дешевле, чем акция, включенная в котировальный список
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.3</IdAnswer>по акции, не включенной в котировальный список биржи, эмитент не обязан выплачивать дивиденды, в отличие от акции, включенной в котировальный список
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.4</IdAnswer>инвестиционный налоговый вычет, предоставляемый по истечении трех лет владения ценными бумагами, распространяется только на акции, включенные в котировальные списки биржи
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.5</IdAnswer>как правило, акция, не включенная в котировальный список биржи, менее ликвидна, чем акция, включенная в котировальный список, и инвестиционный налоговый вычет, предоставляемый по истечении трех лет владения ценными бумагами, распространяется только на такие акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.6</IdAnswer>как правило, акция, не включенная в котировальный список биржи, стоит дешевле, чем акция, включенная в котировальный список, и инвестиционный налоговый вычет, предоставляемый по истечении трех лет владения ценными бумагами, распространяется только на такие акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.7</IdAnswer>как правило, акция, не включенная в котировальный список биржи, менее ликвидна, чем акция, включенная в котировальный список, и стоит такая акция дешевле
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.8</IdAnswer>как правило, акция, не включенная в котировальный список биржи, менее ликвидна, чем акция, включенная в котировальный список, и эмитент не обязан выплачивать дивиденды по таким акциям
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.9</IdAnswer>как правило, по акции, не включенной в котировальный список, эмитент не обязан выплачивать дивиденды, в отличие от акции, включенной в котировальный список, и инвестиционный налоговый вычет, предоставляемый по истечении трех лет владения ценными бумагами, распространяется только на такие акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_3.1.1</IdAnswer>
+				<AnswerVariant>акция, не включенная в котировальный список биржи, как правило менее ликвидна, чем акция, включенная в котировальный список</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Выберите верное утверждение в отношении требований, предъявляемых биржей к компаниям, чьи акции торгуются на бирже.
+			Требования, предъявляемые к таким компаниям…
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.1</IdAnswer>устанавливаются биржей отдельно как для разных уровней котировальных списков, так и для некотировальной части списка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.2</IdAnswer>являются одинаковыми и не зависят от уровня котировального списка или некотировальной части списка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.3</IdAnswer>устанавливаются в зависимости от величины гарантийного обеспечения
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.4</IdAnswer>устанавливаются брокером, предлагающим такие акции своим клиентам
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.5</IdAnswer>устанавливаются биржей в зависимости от ликвидности их акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.6</IdAnswer>определяются экспертным советом, созданным на бирже
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.7</IdAnswer>требования отсутствуют
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.8</IdAnswer>Зависят от срока существования компании
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.9</IdAnswer>зависят от уровня кредитного рейтинга компании
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k9_3.2.10</IdAnswer>ни один ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k9_3.2.1</IdAnswer>
+				<AnswerVariant>устанавливаются биржей отдельно как для разных уровней котировальных списков, так и для некотировальной части списка</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+	</Knowledge>
+</Root>

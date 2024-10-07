@@ -1,0 +1,488 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>3</TestTypeID>
+	<NameGenitiveCase>Договоров РЕПО</NameGenitiveCase>
+	<Description>Договором РЕПО признается договор, по которому одна сторона (продавец по договору РЕПО) обязуется в срок, установленный этим договором, передать в собственность другой стороне (покупателю по договору РЕПО) ценные бумаги, а покупатель по договору РЕПО обязуется принять ценные бумаги и уплатить за них определенную денежную сумму (первая часть договора РЕПО) и по которому покупатель по договору РЕПО обязуется в срок, установленный этим договором, передать ценные бумаги в собственность продавца по договору РЕПО, а продавец по договору РЕПО обязуется принять ценные бумаги и уплатить за них определенную денежную сумму (вторая часть договора РЕПО).</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о договорах РЕПО? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e3_1.1</IdAnswer>не имею конкретных знаний о договорах РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_1.3</IdAnswer>знаю, потому что работал с договорами РЕПО / заключал договоры РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_1.4</IdAnswer>Знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы Заключаете договоры РЕПО? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e3_2.1</IdAnswer>до настоящего времени договоров РЕПО не заключал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько договоров РЕПО Вы заключили за последний год? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e3_3.1</IdAnswer>за последний год договоров РЕПО не заключал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e3_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Если Вы продали ценную бумагу по первой части договора РЕПО, по второй части такого договора РЕПО Вы:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.1</IdAnswer>будете покупать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.2</IdAnswer>будете покупать такую же ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.3</IdAnswer>можете по своему выбору покупать как такую же, так и любую другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.4</IdAnswer>будете продавать такую же ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.5</IdAnswer>будете продавать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.6</IdAnswer>получите за такую ценную бумагу денежные средства
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.7</IdAnswer>можете по своему выбору покупать или продавать такую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.8</IdAnswer>можете по своему выбору покупать или продавать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.9</IdAnswer>только уплатите доход по ценной бумаге, которая продана по договору РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_1.1.2</IdAnswer>
+				<AnswerVariant>будете покупать такую же ценную бумагу</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Если по первой части договора репо Вы купили ценную бумагу, по второй части договора репо Вы:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.1</IdAnswer>будете продавать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.2</IdAnswer>будете продавать такую же ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.3</IdAnswer>можете по своему выбору продавать как такую же, так и любую другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.4</IdAnswer>будете покупать такую же ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.5</IdAnswer>будете покупать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.6</IdAnswer>можете по своему выбору покупать или продавать такую же ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.7</IdAnswer>можете по своему выбору покупать или продавать другую ценную бумагу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.8</IdAnswer>выплатите доход по такой ценной бумаге продавцу по договору репо, но не будете её продавать
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.9</IdAnswer>получите доход по такой ценной бумаге от продавца по договору репо, но не будете её продавать
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_1.2.2</IdAnswer>
+				<AnswerVariant>будете продавать такую же ценную бумагу</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="1" variant="3">
+			Если Вы продали ценную бумагу по первой части договора репо, это означает, что Вы…
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.1</IdAnswer>получите денежные средства от покупателя по второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.2</IdAnswer>получили иные ценные бумаги от покупателя по первой части договора
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.3</IdAnswer>можете по своему выбору получить любую ценную бумагу или денежные средства по второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.4</IdAnswer>можете продать такую ценную бумагу еще раз по второй части такого договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.5</IdAnswer>получили ценную бумагу, которую необходимо будет вернуть при исполнении обязательств по второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.6</IdAnswer>получили денежные средства по первой части договора репо, которые при исполнении обязательств по второй части этого договора нужно вернуть, как правило, с процентами, исчисленными по ставке репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.7</IdAnswer>можете по своему выбору получить как такую же, так и другую ценную бумагу по второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.8</IdAnswer>можете по своему выбору покупать как такую же, так и любую другую ценную бумагу по первой части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.9</IdAnswer>будете продавать другую ценную бумагу по второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_1.3.10</IdAnswer>ни один из ответов не является верным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_1.3.6</IdAnswer>
+				<AnswerVariant>получили денежные средства по первой части договора репо, которые при исполнении обязательств по второй части этого договора нужно вернуть, как правило, с процентами, исчисленными по ставке репо</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="1">
+			Переоценка по договору РЕПО
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.1</IdAnswer>является обязательным условием любого договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.2</IdAnswer>может проводиться в целях снижения риска неисполнения обязательств по второй части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.3</IdAnswer>проводится только при заключении договоров РЕПО на бирже
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.4</IdAnswer>может проводиться в целях снижения риска дефолта эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.5</IdAnswer>проводится только при заключении договоров РЕПО с акциями
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.6</IdAnswer>проводится только в случае банкротства продавца по первой части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.7</IdAnswer>проводится только при заключении договоров РЕПО с облигациями
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.8</IdAnswer>проводится только при заключении договоров РЕПО с неэмиссионными ценными бумагами
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.9</IdAnswer>проводится по договорам РЕПО только по требования Банка России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.1.2</IdAnswer>
+				<AnswerVariant>может проводиться в целях снижения риска неисполнения обязательств по второй части договора РЕПО</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="2">
+			Вы являетесь покупателем по первой части договора РЕПО. По ценным бумагам, которые Вы получили по договору РЕПО, осуществлена выплата денежных средств или передано иное имущество, в том числе в виде дивидендов или процентов (доход). В каком случае Вы обязаны передать сумму такого дохода продавцу по договору РЕПО?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.1</IdAnswer>только если Вы фактически получили такой доход
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.2</IdAnswer>в любом случае, даже если Вы этот доход фактически не получили
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.3</IdAnswer>Вы не обязаны передавать такой доход продавцу по договору РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.4</IdAnswer>Вы обязаны передать такой доход продавцу по договору РЕПО только в случае, если это предусмотрено условиями договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.5</IdAnswer>Вы не обязаны передавать продавцу по договору РЕПО такой доход, если это предусмотрено условиями договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.6</IdAnswer>в случае, если Вы получили инструкции о перечислении дохода от эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.7</IdAnswer>только если Вы фактически получили такой доход в течение срока РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.8</IdAnswer>только если Вы являетесь эмитентом ценных бумаг, приобретенных по договору РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.9</IdAnswer>только если Вы получили предписание о передаче такого дохода от Банка России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.2.2</IdAnswer>
+				<AnswerVariant>в любом случае, даже если Вы этот доход фактически не получили</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			Если Вы являетесь продавцом по договору репо, требование о перечислении маржинального взноса может Вам поступить:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.1</IdAnswer>если снизилась стоимость ценных бумаг, переданных Вами по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.2</IdAnswer>если повысилась стоимость ценных бумаг, переданных Вами по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.3</IdAnswer>если снизилась стоимость ценных бумаг, полученных Вами по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.4</IdAnswer>если Вы не исполнили обязательства по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.5</IdAnswer>если до истечения срока договора репо остается менее трех дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.6</IdAnswer>если Вы купили такие же ценные бумаги, которые продавали по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.7</IdAnswer>такое требование не может Вам поступить
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.8</IdAnswer>если Ваш контрагент по договору репо банкрот
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.9</IdAnswer>если ценная бумага, переданная Вами по договору репо, погашена
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.3.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.3.1</IdAnswer>
+				<AnswerVariant>если снизилась стоимость ценных бумаг, переданных Вами по договору репо</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="4">
+			Если Вы продали по первой части договора репо ценные бумаги, а покупатель по договору репо фактически получил доход (дивиденды или купон), то:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.1</IdAnswer>сумма такого дохода остается у покупателя
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.2</IdAnswer>покупатель должен вернуть сумму такого дохода эмитенту
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.3</IdAnswer>покупатель должен перечислить сумму такого дохода государству
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.4</IdAnswer>покупатель должен перечислить сумму такого дохода Вам
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.5</IdAnswer>покупатель должен перечислить сумму такого дохода Вам, если это предусмотрено заключенным между вами договором
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.6</IdAnswer>таким доходом Вы или покупатель обязаны распорядиться в соответствии с договором РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.7</IdAnswer>покупатель обязан передать Вам иное имущество на сумму, соответствующую сумме выплаченного дохода
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.8</IdAnswer>вы обязаны запросить у покупателя иное имущество на сумму, соответствующую сумме выплаченного дохода
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.9</IdAnswer>расчеты по второй части такого договора репо не проводятся
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.4.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.4.4</IdAnswer>
+				<AnswerVariant>покупатель должен перечислить сумму такого дохода Вам</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="5">
+			Что из перечисленного не может быть передано по договору репо?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.1</IdAnswer>Акции российских компаний
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.2</IdAnswer>Облигации российских компаний
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.3</IdAnswer>Российские депозитарные расписки
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.4</IdAnswer>Паи / акции инвестиционного фонда, управляющая компания которого является российской компанией
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.5</IdAnswer>Паи / акции фонда ETF
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.6</IdAnswer>Фьючерсы.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.7</IdAnswer>Акции иностранной компании
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.8</IdAnswer>Облигации иностранной компании
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.9</IdAnswer>Клиринговые сертификаты участия.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.5.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.5.6</IdAnswer>
+				<AnswerVariant>Фьючерсы</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			Если Вы являетесь покупателем по первой части договора репо, требование о перечислении маржинального взноса в рамках этого договора может Вам поступить:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.1</IdAnswer>такое требование Вам поступить не может
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.2</IdAnswer>если повысилась рыночная стоимость ценных бумаг, которые Вы получили по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.3</IdAnswer>только если понизилась рыночная стоимость ценных бумаг, которые Вы получили по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.4</IdAnswer>если Вы заключили еще один договор репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.5</IdAnswer>если до истечения срока репо остается менее трех дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.6</IdAnswer>если Вы купили такие же ценные бумаги, которые покупали по такому договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.7</IdAnswer>если Вы продали ценные бумаги, которые покупали по такому договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.8</IdAnswer>если Ваш контрагент по договору репо банкрот
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.9</IdAnswer>если эмитент по ценным бумагам, переданным по договору репо, банкрот
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_2.6.10</IdAnswer>ни один из ответов не является верным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_2.6.2</IdAnswer>
+				<AnswerVariant>если повысилась рыночная стоимость ценных бумаг, которые Вы получили по договору репо</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+		<Question difficulty="3" variant="1">
+			Продавец передал в собственность покупателя ценные бумаги по договору РЕПО (в случае отсутствия в договоре оговорки о возможности возврата иного количества ценных бумаг). Риск невозврата ценных бумаг, переданных по первой части договора РЕПО, для продавца может реализоваться:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.1</IdAnswer>при неисполнении покупателем своих обязательств по договору РЕПО, а также при погашении ценных бумаг
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.2</IdAnswer>при увеличении цены ценных бумаг, преданных покупателю по договору РЕПО, на дату исполнения второй части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.3</IdAnswer>указанный риск по договору РЕПО отсутствует
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.4</IdAnswer>только в случае, если покупатель не предоставил обеспечение продавцу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.5</IdAnswer>в данном случае риска нет, поскольку согласно требованиям Банка России покупатель обязан компенсировать стоимость ценных бумаг в двойном размере в валюте Российской Федерации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.6</IdAnswer>только при неисполнении покупателем своих обязательств по договору РЕПО, а также при увеличении цены ценных бумаг, преданных покупателю по договору РЕПО, на дату исполнения второй части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.7</IdAnswer>при неисполнении покупателем своих обязательств по договору РЕПО, а также при увеличении цены ценных бумаг, преданных покупателю по договору РЕПО, на дату исполнения второй части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.8</IdAnswer>только при неисполнении покупателем своих обязательств по договору РЕПО в случае, если по такому договору РЕПО производилась переоценка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.9</IdAnswer>только при увеличении цены ценных бумаг, преданных покупателю по договору РЕПО, на дату исполнения второй части договора РЕПО, если цена увеличилась более, чем на 100 % по сравнению с ценой на дату исполнения первой части договора РЕПО
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_3.1.1</IdAnswer>
+				<AnswerVariant>при неисполнении покупателем своих обязательств по договору РЕПО, а также при погашении ценных бумаг</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Покупатель по договору репо передал продавцу по договору репо денежные средства. Риск невозврата денежных средств, переданных по первой части договора репо, для покупателя может реализоваться:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.1</IdAnswer>при неисполнении продавцом своих обязательств
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.2</IdAnswer>при снижении цены ценных бумаг, переданных покупателю по договору репо, на дату исполнения второй части договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.3</IdAnswer>только в случае, если продавец не предоставил обеспечение покупателю
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.4</IdAnswer>в данном случае риска нет, поскольку, согласно требованиям Банка России, продавец по договору репо при ненадлежащем его исполнении обязан компенсировать стоимость ценных бумаг по такому договору, которая всегда превышает сумму переданных по первой части репо денежных средств
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.5</IdAnswer>при неисполнении продавцом своих обязательств по договору репо, если при этом на дату исполнения второй части договора репо снизилась цены ценных бумаг, переданных покупателю по договору репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.6</IdAnswer>только при неисполнении продавцом своих обязательств по договору репо в случае, если по такому договору репо производилась переоценка
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.7</IdAnswer>указанный риск по договору репо отсутствует
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.8</IdAnswer>только при снижении цены ценных бумаг, переданных покупателю, на дату исполнения второй части договора репо, если цена снизилась более, чем на 50 % в течение срока договора репо
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.9</IdAnswer>только при банкротстве продавца
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k3_3.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k3_3.2.1</IdAnswer>
+				<AnswerVariant>при неисполнении продавцом своих обязательств</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+	</Knowledge>
+</Root>

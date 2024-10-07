@@ -1,0 +1,4 @@
+[submodule "message-bus-core"]
+	path = message-bus-core
+	url = http://gitlab.dev.solidbroker.ru/solid-application-foundation/message-bus-core.git
+	branch = ASP

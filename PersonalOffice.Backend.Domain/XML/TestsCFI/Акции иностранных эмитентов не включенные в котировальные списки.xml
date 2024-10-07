@@ -1,0 +1,484 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>10</TestTypeID>
+	<NameGenitiveCase></NameGenitiveCase>
+	<Description>Акции иностранного эмитента, не включенные в котировальные списки биржи или ценных бумаг другого иностранного эмитента, удостоверяющие права в отношении таких акций при условии, что указанные акции входят в расчет хотя бы одного из индексов, перечень которых установлен Советом Директоров Банка России</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e10_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e10_2.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_2.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_2.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом? (возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e10_3.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_3.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e10_3.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Ликвидность акции характеризует:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.1</IdAnswer>способность инвестора продать акцию с минимальными для него потерями в минимальный срок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.2</IdAnswer>вероятность ликвидации эмитента акций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.3</IdAnswer>разницу цены такой акции на разных торговых площадках
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.4</IdAnswer>насколько возобновляются активы компании – эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.5</IdAnswer>разницу между ценой покупки акции и ценой продажи акции инвестором
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.6</IdAnswer>вероятность погашения акции компанией - эмитентом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.7</IdAnswer>возможность выплаты компанией-эмитентом дивидендов по акциям
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.8</IdAnswer>наличие российских депозитарных расписок на акции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.9</IdAnswer>возможность конвертации акций компании-эмитента одного типа в акции этой же компании другого типа
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_1.1.1</IdAnswer>
+				<AnswerVariant>способность инвестора продать акцию с минимальными для него потерями в минимальный срок</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Кто в Российской Федерации является налоговым агентом при осуществлении операций по покупке / продаже иностранных акций?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.1</IdAnswer>Банк России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.2</IdAnswer>Эмитент.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.3</IdAnswer>Брокер, доверительный управляющий, управляющая компания.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.4</IdAnswer>Биржа.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.5</IdAnswer>Инвестор.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.6</IdAnswer>Специализированный депозитарий.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.7</IdAnswer>Иностранная финансовая организация, филиал которой аккредитован на территории России, относящаяся к одной с эмитентом акций юрисдикции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.8</IdAnswer>Минфин России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.9</IdAnswer>Финансовый уполномоченный.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_1.2.3</IdAnswer>
+				<AnswerVariant>Брокер, доверительный управляющий, управляющая компания.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Выберите верное утверждение относительно приобретения акций иностранных эмитентов.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.1</IdAnswer>Такие акции можно приобретать только на бирже.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.2</IdAnswer>Такие акции можно приобретать только на внебиржевом рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.3</IdAnswer>Такие акции можно приобретать как на бирже, так и на внебиржевом рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.4</IdAnswer>Такие акции всегда менее ликвидны, чем акции российских эмитентов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.5</IdAnswer>Такие акции всегда более ликвидны, чем акции российских эмитентов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.6</IdAnswer>Дивиденды по таким акциям всегда больше, чем по акциям российских эмитентов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.7</IdAnswer>Инвесторы – граждане Российской Федерации, могут приобретать такие акции только на зарубежных биржах.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.8</IdAnswer>Инвесторы – граждане Российской Федерации, могут приобретать такие акции только за российские рубли.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.9</IdAnswer>Инвесторы – граждане Российской Федерации, могут приобретать такие акции только с разрешения Минфина России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_1.3.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_1.3.3</IdAnswer>
+				<AnswerVariant>Такие акции можно приобретать как на бирже, так и на внебиржевом рынке.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="1">
+			Что из перечисленного не является риском по приобретению акций иностранных эмитентов?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.1</IdAnswer>риск изменения суверенного рейтинга Российской Федерации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.2</IdAnswer>риск неожиданного изменения иностранным государством законодательства, регулирующего обращение акций иностранных эмитентов, в неблагоприятную для Вас сторону
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.3</IdAnswer>риск введения иностранным государством запретительных мер в отношении российских владельцев акций иностранных эмитентов
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.4</IdAnswer>риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.5</IdAnswer>риск обложения доходов, выплачиваемых по акциям иностранных эмитентов не только в России, но и в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.6</IdAnswer>риск введения иностранным государством запретительных мер в отношении российских владельцев акций иностранных эмитентов и риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.7</IdAnswer>риск изменения суверенного рейтинга Российской Федерации и риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.8</IdAnswer>риск введения иностранным государством запретительных мер в отношении российских владельцев акций иностранных эмитентов и риск обложения доходов, выплачиваемых по акциям иностранных эмитентов не только в России, но и в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.9</IdAnswer>риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством, и риск обложения доходов, выплачиваемых по акциям иностранных эмитентов не только в России, но и в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.1.1</IdAnswer>
+				<AnswerVariant>риск изменения суверенного рейтинга Российской Федерации</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="2">
+			В фондовый индекс, рассчитываемый биржей, включаются:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.1</IdAnswer>все акции, допущенные к биржевым торгам, в равной пропорции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.2</IdAnswer>акции, при условии соответствия таких акций и (или) их эмитентов определенным требованиям, установленным биржей для включения в индекс, в пропорции, установленной биржей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.3</IdAnswer>только акции эмитентов, имеющие высокий кредитный рейтинг, в равной пропорции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.4</IdAnswer>только акции эмитентов, входящие в котировальный список биржи, в равной пропорции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.5</IdAnswer>только облигации эмитентов, входящие в котировальной список биржи, в равной пропорции
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.6</IdAnswer>разница между ценой спроса и предложения на акции, торгуемые на бирже, пропорционально их весу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.7</IdAnswer>разница между ценой спроса и предложения на облигации, торгуемые на бирже, пропорционально их весу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.8</IdAnswer>стоимость активов компаний-эмитентов, акции которых входят в котировальный список биржи, пропорционально их весу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.9</IdAnswer>прибыль компаний-эмитентов, акции которых входят в котировальный список биржи, пропорционально их весу
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.2.2</IdAnswer>
+				<AnswerVariant>акции, при условии соответствия таких акций и (или) их эмитентов определенным требованиям, установленным биржей для включения в индекс, в пропорции, установленной биржей</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			В случае выплаты дивидендов по акциям иностранных эмитентов кто обязан предоставить сведения в Федеральную налоговую службу Российской Федерации?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.1</IdAnswer>Биржа, на которой была заключена сделка с акциями иностранного эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.2</IdAnswer>Иностранный эмитент, осуществивший выплату дивидендов.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.3</IdAnswer>Инвестор самостоятельно должен предоставить заполненную налоговую декларацию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.4</IdAnswer>Российский профессиональный участник рынка ценных бумаг.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.5</IdAnswer>Иностранная финансовая организация, филиал которой аккредитован на территории России, относящаяся к одной с эмитентом акций юрисдикции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.6</IdAnswer>Налоговая служба иностранного государства, к юрисдикции которого относится эмитент акций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.7</IdAnswer>Клиринговая организация.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.8</IdAnswer>Специализированный депозитарий.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.9</IdAnswer>Профессиональный участник рынка ценных бумаг, осуществляющий деятельность по управлению ценными бумагами, организация, предоставляющая услуги по налоговому консультированию.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.3.3</IdAnswer>
+				<AnswerVariant>Инвестор самостоятельно должен предоставить заполненную налоговую декларацию.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="4">
+			Выберите верное утверждение в отношении акций иностранного эмитента:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.1</IdAnswer>Вхождение иностранной акции в фондовый индекс само по себе будет давать неполное представление о ликвидности акции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.2</IdAnswer>Иностранная акция, входящая в фондовый индекс, как правило, стоит дороже, чем иностранная акция, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.3</IdAnswer>Иностранная акция, входящая в индекс, как правило, стоит дешевле, чем иностранная акция, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.4</IdAnswer>Доход по иностранной акции, входящей в индекс, как правило, больше, чем по иностранной акции, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.5</IdAnswer>Доход по иностранной акции, входящей в индекс, как правило, меньше, чем по иностранной акции, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.6</IdAnswer>Цена иностранной акции, входящей в индекс, всегда менее волатильна, чем цена иностранной акции, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.7</IdAnswer>Цена иностранной акции, входящей в индекс, всегда более волатильна, чем цена иностранной акции, которая не входит ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.8</IdAnswer>Риск дефолта компании, иностранные акции которой входят в фондовый индекс, ниже, чем для иностранных акций, не входящих ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.9</IdAnswer>Риск дефолта компании, иностранные акции которой входят в фондовый индекс, выше, чем для иностранных акций, не входящих ни в один фондовый индекс.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.4.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.4.1</IdAnswer>
+				<AnswerVariant>Вхождение иностранной акции в фондовый индекс само по себе будет давать неполное представление о ликвидности акции.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="5">
+			Если инвестор принимает решение продать принадлежащие ему акции иностранного эмитента, как быстро он может это сделать?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.1</IdAnswer>В любой рабочий день, определенный самим инвестором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.2</IdAnswer>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель, в том числе с учетом риска введения иностранным регулятором ограничений на совершение сделок и/или регистрацию прав на такие акции в депозитарии.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.3</IdAnswer>В любой рабочий день, поскольку, если не будет желающих купить акции на рынке, их обязан выкупить брокер.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.4</IdAnswer>В любой рабочий день, поскольку, если не будет желающих купить акции на рынке, их обязан выкупить эмитент.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.5</IdAnswer>В течение недели
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.6</IdAnswer>В течение 7 дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.7</IdAnswer>В течение 14 дней
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.8</IdAnswer>В течение месяца
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.9</IdAnswer>Сделка всегда совершается на следующий рабочий день после даты подачи поручения брокеру.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.5.10</IdAnswer>Ни один из ответов не является верным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.5.2</IdAnswer>
+				<AnswerVariant>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель, в том числе с учетом риска введения иностранным регулятором ограничений на совершение сделок и/или регистрацию прав на такие акции в депозитарии.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			Выберите риски, которые могут возникнуть при инвестировании в акции иностранных эмитентов.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.1</IdAnswer>Риск введения иностранным государством запретительных мер в отношении российских владельцев акций иностранных эмитентов, в том числе риск невыплаты дивидендов по таким акциям
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.2</IdAnswer>Риск введения иностранным государством запретительных мер на осуществление депозитарных операций с акциями
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.3</IdAnswer>Риск введения иностранным государством блокирующих санкций в отношении российского брокера
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.4</IdAnswer>Риск введения иностранным государством санкций в отношении биржевой инфраструктуры
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.5</IdAnswer>Риск, связанный с необходимостью защищать свои нарушенные права в иностранном суде по процедурам, установленным иностранным законодательством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.6</IdAnswer>Риск прекращения торгов по валюте, в которой рассчитываются сделки с акциями иностранных эмитентов
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.7</IdAnswer>Риск делистинга акций иностранного эмитента, а также применения к эмитенту корпоративных процедур в соответствии с иностранным законодательством
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.8</IdAnswer>Риск запрета со стороны Банка России на биржевую торговлю иностранными акциями и, как следствие, риск низкой ликвидности акций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.9</IdAnswer>Риск обложения доходов, выплачиваемых по акциям иностранных эмитентов не только в России, но и в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_2.6.10</IdAnswer>Все ответы являются верными
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_2.6.10</IdAnswer>
+				<AnswerVariant>Все ответы являются верными</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="1">
+			В случае, если Вы купили иностранную акцию за 100 долларов США и продали ее через год за 110 долларов США, при этом курс доллара США за указанный год вырос с 50 до 75 рублей, Ваш налогооблагаемый доход в России составит:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.1</IdAnswer>10 долларов США
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.2</IdAnswer>500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.3</IdAnswer>750 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.4</IdAnswer>1 250 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.5</IdAnswer>2 500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.6</IdAnswer>2 750 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.7</IdAnswer>3 250 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.8</IdAnswer>3 500 рублей
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.9</IdAnswer>0 рублей, поскольку налог на доход, полученный в результате роста стоимости иностранной ценной бумаги, уплачивается в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_3.1.7</IdAnswer>
+				<AnswerVariant>3 250 рублей</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			К требованиям по включению иностранных акций в фондовый индекс могут относиться требования в отношении:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.1</IdAnswer>определенных бирж, включивших ценную бумагу в список ценных бумаг, допущенных к организованным торгам
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.2</IdAnswer>определенной организационной структуры эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.3</IdAnswer>величины рыночной капитализации выше определенного порога
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.4</IdAnswer>ликвидности таких акций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.5</IdAnswer>оценки показателя, показывающего, какая часть акций от общего количества доступна инвесторам для торгов на бирже
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.6</IdAnswer>минимального объема торгов за период, определенного лицом, считающим фондовый индекс
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.7</IdAnswer>необходимости получения прибыли за последние последовательные периоды, определенные лицом, считающим фондовый индекс
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.8</IdAnswer>юридического места регистрации эмитента акций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.9</IdAnswer>уровня листинга ценных бумаг эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k10_3.2.10</IdAnswer>все перечисленное верно
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k10_3.2.10</IdAnswer>
+				<AnswerVariant>все перечисленное верно</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+	</Knowledge>
+</Root>

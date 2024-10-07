@@ -1,0 +1,493 @@
+﻿<Root>
+	<Version>3.0</Version>
+	<TestTypeID>15</TestTypeID>
+	<NameGenitiveCase>Облигаций иностранных эмитентов, имеющих кредитный рейтинг не ниже уровня, установленного Советом директоров Банка России</NameGenitiveCase>
+	<Description>Облигаций иностранных эмитентов (за исключением субординированных облигаций, облигаций, размер выплат, в том числе процентов, по которым зависит от наступления или ненаступления одного или нескольких обстоятельств, указанных в абзаце втором подпункта 23 пункта 1 статьи 2 настоящего Федерального закона, а также облигаций, конвертируемых в акции и иные ценные бумаги) исполнение обязательств по облигациям, эмитентом которых является иностранная организация, обеспечивается или осуществляется за счет юридического лица, созданного в соответствии с законодательством Российской Федерации, которое имеет кредитный рейтинг не ниже установленного Советом директоров Банка России уровня;</Description>
+	<SelfEsteem count="3">
+		<Question>
+			Обладаете ли Вы знаниями о финансовом инструменте? (возможно несколько вариантов ответа)
+			<Type>checkbox</Type>
+			<AnswerVariant>
+				<IdAnswer>e15_1.1</IdAnswer>не имею конкретных знаний об инструменте
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_1.2</IdAnswer>знаю, поскольку изучал
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_1.3</IdAnswer>знаю, потому что работал / заключал сделки с данным инструментом
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_1.4</IdAnswer>знаю, потому что получил профессиональную консультацию
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Как долго (в совокупности) Вы осуществляете сделки с этим инструментом?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e15_2.1</IdAnswer>до настоящего времени сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_2.2</IdAnswer>не более 1 года
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_2.3</IdAnswer>1 год и более
+			</AnswerVariant>
+		</Question>
+		<Question>
+			Сколько сделок с этим инструментом Вы заключили за последний год?(возможен один вариант ответа)
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>e15_3.1</IdAnswer>за последний год сделок не было
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_3.2</IdAnswer>менее 10 сделок
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>e15_3.3</IdAnswer>10 или более сделок
+			</AnswerVariant>
+		</Question>
+	</SelfEsteem>
+	<Knowledge count="4">
+		<Question difficulty="1" variant="1">
+			Соглашение об избежании двойного налогообложения – это
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.1</IdAnswer>договор между эмитентом облигации и налоговым органом по месту нахождения эмитента, по которому доход, выплачиваемый по облигациям, освобождается от налогообложения
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.2</IdAnswer>договор между эмитентом облигации и налоговым органом в стране выпуска облигаций, по которому доход по облигациям, освобождается от налогообложения
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.3</IdAnswer>договор между эмитентом облигации и инвестором, по которому эмитент обязуется удерживать и уплачивать налог с дохода по облигациям
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.4</IdAnswer>договор между брокером и инвестором, по которому брокер обязуется удерживать и уплачивать налог с дохода по облигациям по наиболее выгодной для инвестора ставке
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.5</IdAnswer>договор между российским правительством и правительством иностранного государства, по которому какие-либо виды дохода могут освобождаться от налогообложения в одном из государств и/или в отношении отдельных видов дохода может устанавливаться льготный режим налогообложения
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.6</IdAnswer>договор между российским правительством и правительством иностранного государства, по которому не допускается, чтобы в данных государствах применялись одинаковые виды налога
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.7</IdAnswer>договор между российским правительством и правительством иностранного государства, по которому доход, выплачиваемый резидентом одного государства резиденту другого государства, признается доходом в третьем государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.8</IdAnswer>договор между российским правительством и правительством иностранного государства, по которому доход, выплачиваемый резидентом одного государства резиденту другого государства, признается доходом только в государстве резидента, которому выплачивается такой доход
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.9</IdAnswer>договор группы из трех и более государств, по которому устанавливаются принципы налогообложения в каждом из этих государств
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.1.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_1.1.5</IdAnswer>
+				<AnswerVariant>договор между российским правительством и правительством иностранного государства, по которому какие-либо виды дохода могут освобождаться от налогообложения в одном из государств и/или в отношении отдельных видов дохода может устанавливаться льготный режим налогообложения</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="2">
+			Компании, выпустившие облигации, различаются по уровню кредитного рейтинга. Расположите показатели кредитного рейтинга эмитента в порядке его убывания:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.1</IdAnswer>АА, А+, BBВ, BВ+, ВВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.2</IdAnswer>BBВ, BВ+, ВВ, А+, АА
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.3</IdAnswer>А+, АА, BВ+, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.4</IdAnswer>BВ, ВВ+, BBВ, АА, А+
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.5</IdAnswer>BBВ, ВВ, BВ+, АА, А+
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.6</IdAnswer>АА, А+, BВ+, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.7</IdAnswer>А+, BВ+, АА, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.8</IdAnswer>АА, ВВ, BВ+, BBВ, А+
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.9</IdAnswer>А+, BBВ, АА, BВ+, ВВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.2.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_1.2.1</IdAnswer>
+				<AnswerVariant>АА, А+, BBВ, BВ+, ВВ</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="1" variant="3">
+			Компании, предоставившие обеспечение по облигации, различаются по уровню кредитного рейтинга. Расположите показатели кредитного рейтинга эмитента в порядке его возрастания.
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.1</IdAnswer>АА, А+, BBВ, BВ+, ВВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.2</IdAnswer>BBВ, BВ+, ВВ, А+, АА
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.3</IdAnswer>А+, АА, BВ+, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.4</IdAnswer>BВ, ВВ+, BBВ, АА, А+
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.5</IdAnswer>ВВ, ВВ+, ВВВ, А+, АА
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.6</IdAnswer>АА, А+, BВ+, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.7</IdAnswer>А+, BВ+, АА, ВВ, BBВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.8</IdAnswer>АА, ВВ, BВ+, BBВ, А+
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.9</IdAnswer>А+, BBВ, АА, BВ+, ВВ
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_1.3.10</IdAnswer>Ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_1.3.5</IdAnswer>
+				<AnswerVariant>ВВ, ВВ+, ВВВ, А+, АА </AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+		<Question difficulty="2" variant="1">
+			Пожалуйста, выберите правильное утверждение в отношении облигаций, выпущенных иностранным эмитентом по иностранному праву:
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.1</IdAnswer>При выпуске и обращении учитываются только требования законодательства по месту нахождения (юрисдикции) эмитента.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.2</IdAnswer>При выпуске и обращении учитываются требования законодательства места выпуска облигаций, а также могут учитываться обязательные требования к эмитенту по месту его нахождения.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.3</IdAnswer>Выпуск и обращение регулируются условиями эмиссии, законодательство не применяется.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.4</IdAnswer>Выпуск и обращение регулируются законодательством, выбранным эмитентом и указанным в условиях эмиссии.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.5</IdAnswer>Условия выпуска и обращения облигаций определяются регулятором по месту нахождения эмитента (Банком России).
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.6</IdAnswer>К условиям выпуска и обращения облигаций применяются только нормы международного регулирования, которые не противоречат законодательству места нахождения эмитента и (или) места выпуска облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.7</IdAnswer>К условиям выпуска и обращения облигаций применяется исключительно законодательство по месту выпуска облигаций, требования к эмитенту по месту его нахождения никогда не применяются.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.8</IdAnswer>Условия выпуска и обращения облигаций определяются регулятором по месту выпуска облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.9</IdAnswer>Условия выпуска и обращения облигаций определяются международным финансовым регулятором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.1.2</IdAnswer>
+				<AnswerVariant>При выпуске и обращении учитываются требования законодательства места выпуска облигаций, а также могут учитываться обязательные требования к эмитенту по месту его нахождения.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="2">
+			Эмитент облигаций объявил обратный выкуп части выпуска, не предусмотренный в эмиссионной документации.
+			Что это означает для инвестора – владельца таких облигаций?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.1</IdAnswer>Инвестор обязан в установленные сроки передать облигации эмитенту для досрочного погашения и не имеет права отказаться.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.2</IdAnswer>Инвестор имеет право в установленные сроки передать облигации эмитенту для досрочного погашения, но не обязан и имеет право отказаться.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.3</IdAnswer>Инвестор не должен реагировать на такие действия эмитента, они относятся только к институциональным инвесторам.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.4</IdAnswer>Инвестор обязан в максимально короткие сроки продать облигации на рынке.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.5</IdAnswer>Для инвестора это не имеет значения, поскольку он имеет право погашения облигаций в любое время.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.6</IdAnswer>Биржа имеет право в любое время потребовать досрочного погашения облигаций. От инвестора ничего не зависит.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.7</IdAnswer>Брокер имеет право в любое время потребовать досрочного погашения облигаций. От инвестора ничего не зависит.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.8</IdAnswer>Брокер в установленные сроки собирает все облигации и передает эмитенту для досрочного погашения. Инвестор не имеет права отказаться.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.9</IdAnswer>Эмитент не может совершать таких действий. Это противозаконно.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.2.2</IdAnswer>
+				<AnswerVariant>Инвестор имеет право в установленные сроки передать облигации эмитенту для досрочного погашения, но не обязан и имеет право отказаться.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="3">
+			Если инвестор принимает решение продать принадлежащие ему облигации, как быстро он может это сделать?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.1</IdAnswer>В любой рабочий день, определенный самим инвестором.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.2</IdAnswer>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.3</IdAnswer>Не раньше следующего объявленного периода выкупа облигаций эмитентом («оферта»).
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.4</IdAnswer>Исключительно после обращения к представителю всех владельцев облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.5</IdAnswer>Не раньше выставления заявки на продажу облигаций в специальной биржевой секции.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.6</IdAnswer>Не раньше трех дней после подачи брокеру заявки на продажу.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.7</IdAnswer>В дату выхода отчетности компании-эмитента облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.8</IdAnswer>Не ранее даты получения заключения о цене продажи от Экспертного совета по существенным рыночным отклонениям Банка России.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.9</IdAnswer>После предоставления брокеру документов, подтверждающих покупку облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.3.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.3.2</IdAnswer>
+				<AnswerVariant>Невозможно определить, поскольку заключить сделку можно только при условии, что найдется покупатель.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="4">
+			Если облигация выпущена иностранным эмитентом по законодательству иностранного государства, требования инвестора к эмитенту, не исполняющему надлежащим образом обязательства по облигациям…
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.1</IdAnswer>не подлежат судебной защите
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.2</IdAnswer>могут быть предъявлены только в суд по месту нахождения эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.3</IdAnswer>могут быть предъявлены только в суд по месту регистрации выпуска облигаций.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.4</IdAnswer>могут быть предъявлены в суд по месту нахождения эмитента или по месту регистрации выпуска облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.5</IdAnswer>рассматриваются только государственным органом (организацией), осуществляющим надзор за деятельностью эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.6</IdAnswer>рассматриваются только государственным органом (организацией), осуществляющим надзор за деятельностью эмитентов в стране регистрации выпуска облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.7</IdAnswer>рассматриваются только государственным органом (организацией), осуществляющим надзор за деятельностью по выпуску (эмиссии) облигаций в стране регистрации эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.8</IdAnswer>рассматриваются только государственным органом (организацией), осуществляющим надзор за деятельностью по эмиссии облигаций в стране регистрации соответствующего выпуска облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.9</IdAnswer>урегулируются по соглашению между эмитентом и инвестором, кроме случаев банкротства эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.4.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.4.4</IdAnswer>
+				<AnswerVariant>могут быть предъявлены в суд по месту нахождения эмитента или по месту регистрации выпуска облигаций</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+		<Question difficulty="2" variant="5">
+			Вы приобрели облигацию, выпущенную иностранным эмитентом по праву иностранного государства.
+			В случае, если Вы не получаете в день выплаты купон или возврат номинальной стоимости облигации, Вы вправе потребовать соответствующие выплаты от…
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.1</IdAnswer>брокера, через которого приобрели облигацию
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.2</IdAnswer>биржи, на которой была совершена сделка с такими облигациями
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.3</IdAnswer>эмитента путем оформления и направления ему требования в соответствии с нормами законодательства, указанного в условиях выпуска облигаций (проспекте эмиссии)
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.4</IdAnswer>российского регулятора финансовых рынков – Банка России
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.5</IdAnswer>регулятора финансовых рынков в государстве, в котором зарегистрирован выпуск таких облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.6</IdAnswer>саморегулируемой организации в сфере финансового рынка в Российской Федерации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.7</IdAnswer>депозитария, в котором осуществляется учет таких облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.8</IdAnswer>рейтингового агентства, которое присвоило рейтинг выпуску таких облигаций
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.9</IdAnswer>Международной организации комиссий по ценным бумагам (IOSCO)
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.5.10</IdAnswer>ни один из ответов не является правильным
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.5.3</IdAnswer>
+				<AnswerVariant>эмитента путем оформления и направления ему требования в соответствии с нормами законодательства, указанного в условиях выпуска облигаций (проспекте эмиссии)</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+		<Question difficulty="2" variant="6">
+			Вы являетесь владельцем облигаций, выпущенных иностранным эмитентом по праву иностранного государства, с которым Российской Федерацией не заключено соглашение об избежании двойного налогообложения.
+			Что из перечисленного является риском владельца такой облигации?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.1</IdAnswer>Риск двойного налогообложения полученных доходов как в России, так и в иностранном государстве
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.2</IdAnswer>Риски изменения иностранного законодательства, регулирующего обращение, погашение и выплату доходов по облигации, в неблагоприятную для инвестора сторону
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.3</IdAnswer>Все перечисленное
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.4</IdAnswer>Риск введения иностранным государством запретительных или ограничительных норм законодательства, затрагивающих эмитента
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.5</IdAnswer>Риск высоких расходов в случае необходимости защиты своих интересов в иностранном суде по иностранному законодательству
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.6</IdAnswer>Риск введения иностранным регулятором ограничений, влияющих на возможность совершения сделок и/или регистрации прав на такие облигации, а также риск изменения норм иностранного или российского налогового законодательства, применимых к порядку удержания налога или расчета полученного финансового результата инвестором
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.7</IdAnswer>Риск невозможности получения судебной защиты в Российской Федерации
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.8</IdAnswer>Риски применения иностранным регулятором ограничительных мер в отношении выпуска облигаций эмитента и порядка совершения сделок с ними
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.9</IdAnswer>Риски несвоевременного получения или получения недостоверной корпоративной информации от эмитента, связанной с выпуском облигаций и их обслуживанием
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_2.6.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_2.6.3</IdAnswer>
+				<AnswerVariant>Все перечисленное</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+
+
+
+		<Question difficulty="3" variant="1">
+			Вы приобрели облигацию иностранного эмитента, выпущенную по законодательству страны Х. Между Россией и Х отсутствует соглашение об избежании двойного налогообложения. По облигациям выплачен доход 100 денежных единиц. Ваш совокупный доход за налоговый период не превышает 5 миллионов рублей. Ставка налога в России - 13 %, ставка налога в Х - 20 %. Какова минимальная сумма дохода по облигациям после налогообложения, которую Вы можете получить?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.1</IdAnswer>Невозможно определить.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.2</IdAnswer> 69,6 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.3</IdAnswer> 87 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.4</IdAnswer> 80 единицы
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.5</IdAnswer> 67 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.6</IdAnswer> 100 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.7</IdAnswer> 88,5 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.8</IdAnswer> 77 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.9</IdAnswer> 93 единиц
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.1.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_3.1.2</IdAnswer>
+				<AnswerVariant>69,6 единиц.</AnswerVariant>
+			</CorrectAnswer>
+
+		</Question>
+
+		<Question difficulty="3" variant="2">
+			Сколько потратит инвестор при покупке облигаций иностранного эмитента на вторичном внебиржевом рынке?
+			<Type>radio</Type>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.1</IdAnswer>(Цена покупки * номинал облигации + НКД) * количество бумаг + комиссия брокера + комиссия депозитария.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.2</IdAnswer>(Номинал облигации + НКД) * количество бумаг.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.3</IdAnswer>Текущая рыночная цена облигации * количество бумаг + комиссия брокера + комиссия депозитария.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.4</IdAnswer>(Номинал облигации + НКД) * количество бумаг + комиссия брокера.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.5</IdAnswer>(Текущая рыночная цена облигации + НКД) * количество бумаг.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.6</IdAnswer>(Номинал облигации – НКД) * количество бумаг – комиссия брокера.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.7</IdAnswer>(Номинал облигации – НКД) * количество бумаг.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.8</IdAnswer>Текущая рыночная цена облигации * количество бумаг – комиссия брокера + комиссия депозитария.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.9</IdAnswer>Номинал облигации * количество бумаг – комиссия брокера.
+			</AnswerVariant>
+			<AnswerVariant>
+				<IdAnswer>k15_3.2.10</IdAnswer>Ни один из ответов не является правильным.
+			</AnswerVariant>
+			<CorrectAnswer>
+				<IdAnswer>k15_3.2.1</IdAnswer>
+				<AnswerVariant>(Цена покупки * номинал облигации + НКД) * количество бумаг + комиссия брокера + комиссия депозитария.</AnswerVariant>
+			</CorrectAnswer>
+		</Question>
+
+	</Knowledge>
+
+</Root>
+
